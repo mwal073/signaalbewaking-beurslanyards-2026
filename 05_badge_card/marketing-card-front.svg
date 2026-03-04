@@ -9,6 +9,7 @@
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&amp;display=swap');
     </style>
   </defs>
 
@@ -17,52 +18,79 @@
 
   <!-- Crop marks (3mm = 11.34pt offset, 5mm = 18.90pt length) -->
   <g stroke="#000000" stroke-width="0.25" fill="none">
-    <!-- Top-left -->
     <line x1="0" y1="11.34" x2="8" y2="11.34"/>
     <line x1="11.34" y1="0" x2="11.34" y2="8"/>
-    <!-- Top-right -->
     <line x1="354.83" y1="11.34" x2="362.83" y2="11.34"/>
     <line x1="351.49" y1="0" x2="351.49" y2="8"/>
-    <!-- Bottom-left -->
     <line x1="0" y1="502.68" x2="8" y2="502.68"/>
     <line x1="11.34" y1="506.02" x2="11.34" y2="514.02"/>
-    <!-- Bottom-right -->
     <line x1="354.83" y1="502.68" x2="362.83" y2="502.68"/>
     <line x1="351.49" y1="506.02" x2="351.49" y2="514.02"/>
   </g>
 
-  <!-- Safe area starts at 3mm bleed + 5mm margin = 8mm = 30.24pt from edge -->
-  <!-- Trim area: 11.34pt to 351.49pt (x), 11.34pt to 502.68pt (y) -->
+  <!-- Safe area: 8mm from trim = 30.24pt from bleed edge -->
+  <!-- Trim: 11.34 to 351.49 (x), 11.34 to 502.68 (y) -->
 
-  <!-- Headline text — left aligned, 12mm from left trim = 11.34 + 45.35 = 56.69pt -->
-  <text font-family="Montserrat, sans-serif" font-weight="800" fill="#FFFFFF" letter-spacing="1">
-    <tspan x="56.69" y="175" font-size="26">WIJ BEVEILIGEN</tspan>
-    <tspan x="56.69" y="210" font-size="26">NIET ALLEEN</tspan>
-    <tspan x="56.69" y="245" font-size="26">JE KLANTEN,</tspan>
-    <tspan x="56.69" y="280" font-size="26">MAAR OOK</tspan>
-    <tspan x="56.69" y="315" font-size="26">JE TELEFOON.</tspan>
+  <!-- === TOP: Real SignaalBewaking logo (white variant) ~40mm wide === -->
+  <g transform="translate(131, 50) scale(2.5)">
+    <!-- Shield — white filled on red background -->
+    <path d="M8 8C8 8 24 4 24 4C24 4 40 8 40 8C40 8 40 26 40 26C40 36 24 44 24 44C24 44 8 36 8 26V8Z"
+          fill="#FFFFFF" opacity="0.95"/>
+    <!-- Checkmark — red stroke on white -->
+    <path d="M20 22L24 26L32 16" stroke="#C41E24" stroke-width="2.5"
+          stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <!-- Logo text -->
+  <text text-anchor="middle" font-family="Roboto, sans-serif" font-weight="700">
+    <tspan x="181.42" y="170" font-size="16" fill="#FFFFFF">Signaal</tspan>
+    <tspan x="181.42" y="188" font-size="16" fill="#FFFFFF" opacity="0.8">Bewaking</tspan>
   </text>
 
-  <!-- "Graag gedaan." — bottom right, subtle -->
-  <text x="320" y="475"
-        font-family="Montserrat, sans-serif"
-        font-weight="400"
-        font-size="10"
-        fill="#FFFFFF"
-        text-anchor="end"
-        opacity="0.55"
-        letter-spacing="0.3">
-    Graag gedaan.
+  <!-- === MIDDEN: Headline === -->
+  <text font-family="Montserrat, sans-serif" font-weight="800" fill="#FFFFFF" letter-spacing="0.8">
+    <tspan x="56.69" y="240" font-size="24">WIJ BEVEILIGEN</tspan>
+    <tspan x="56.69" y="270" font-size="24">NIET ALLEEN</tspan>
+    <tspan x="56.69" y="300" font-size="24">JE KLANTEN,</tspan>
+    <tspan x="56.69" y="330" font-size="24">MAAR OOK</tspan>
+    <tspan x="56.69" y="360" font-size="24">JE TELEFOON.</tspan>
   </text>
 
-  <!-- SignaalBewaking.nl — bottom left, small -->
-  <text x="56.69" y="475"
+  <!-- === ONDER: Tagline + certs + URL === -->
+
+  <!-- Dunne witte separator -->
+  <line x1="56.69" y1="390" x2="200" y2="390" stroke="#FFFFFF" stroke-width="1" opacity="0.4"/>
+
+  <!-- Brand promise -->
+  <text x="56.69" y="415"
         font-family="Montserrat, sans-serif"
         font-weight="600"
-        font-size="8"
+        font-size="9"
         fill="#FFFFFF"
-        opacity="0.7"
-        letter-spacing="0.5">
-    SignaalBewaking.nl
+        opacity="0.85"
+        letter-spacing="0.3">
+    Uw partner.
   </text>
+
+  <!-- Certification strip -->
+  <text x="56.69" y="445"
+        font-family="Montserrat, sans-serif"
+        font-weight="400"
+        font-size="6"
+        fill="#FFFFFF"
+        opacity="0.55"
+        letter-spacing="0.5">
+    Kiwa · ISO 27001 · EN 50518 · VEB · BORG
+  </text>
+
+  <!-- SignaalBewaking.nl — bottom -->
+  <text x="56.69" y="475"
+        font-family="Montserrat, sans-serif"
+        font-weight="800"
+        font-size="9"
+        fill="#FFFFFF"
+        opacity="0.8"
+        letter-spacing="0.5">
+    signaalbewaking.nl
+  </text>
+
 </svg>

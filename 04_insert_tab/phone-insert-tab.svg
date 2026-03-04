@@ -12,15 +12,10 @@
     </style>
   </defs>
 
-  <!-- Tab outline — T-shape profile -->
-  <!-- Bottom strap: 8mm wide x 40mm long (slides into phone case) -->
-  <!-- Top plate: 35mm wide x 18mm tall (visible branding area) -->
-  <!-- Cord loop hole at bottom -->
-
-  <!-- Full tab shape -->
+  <!-- T-shape outline -->
   <g transform="translate(0, 0)">
 
-    <!-- T-shape outline -->
+    <!-- T-shape body -->
     <path d="M10 0 L160 0 L160 68 L115 68 L115 250 C115 262 105 270 85 270 C65 270 55 262 55 250 L55 68 L10 68 Z"
           fill="#FFFFFF" stroke="#CCCCCC" stroke-width="1"/>
 
@@ -29,13 +24,14 @@
 
     <!-- === VISIBLE BRANDING AREA (top plate) === -->
 
-    <!-- SignaalBewaking shield logo — centered, top -->
-    <g transform="translate(72, 6)">
-      <path d="M12.5 0 L25 5 L25 15 C25 22 19 27 12.5 30 C6 27 0 22 0 15 L0 5 Z"
-            fill="#C41E24" stroke="none"/>
-      <g transform="translate(6.5, 8) scale(0.5)" fill="none" stroke="#FFFFFF" stroke-width="2.5">
-        <path stroke-linecap="round" d="M9.348 14.652a3.75 3.75 0 010-5.304m5.304 0a3.75 3.75 0 010 5.304m-7.425 2.121a6.75 6.75 0 010-9.546m9.546 0a6.75 6.75 0 010 9.546"/>
-      </g>
+    <!-- Real SignaalBewaking shield logo — centered, top -->
+    <g transform="translate(67, 4) scale(0.75)">
+      <!-- Shield filled red -->
+      <path d="M16 8C16 8 24 4 24 4C24 4 32 8 32 8C32 8 32 22 32 22C32 30 24 36 24 36C24 36 16 30 16 22V8Z"
+            fill="#D00A2B"/>
+      <!-- White checkmark -->
+      <path d="M20 20L23 23.5L29 16" stroke="#FFFFFF" stroke-width="2.2"
+            stroke-linecap="round" stroke-linejoin="round" fill="none"/>
     </g>
 
     <!-- SIGNAALBEWAKING text -->
@@ -63,17 +59,16 @@
     <!-- Thin red line separator -->
     <line x1="55" y1="64" x2="115" y2="64" stroke="#C41E24" stroke-width="0.5" opacity="0.5"/>
 
-    <!-- On the strap portion (visible when hanging) -->
-    <!-- Powered by SignaalApp — vertical on strap -->
+    <!-- On the strap portion — URL (more useful than SignaalApp) -->
     <text x="85" y="120"
           font-family="Montserrat, sans-serif"
-          font-weight="400"
-          font-size="5"
+          font-weight="600"
+          font-size="4.5"
           fill="#888888"
           text-anchor="middle"
-          letter-spacing="0.5"
+          letter-spacing="0.8"
           transform="rotate(-90, 85, 120)">
-      POWERED BY SIGNAALAPP
+      SIGNAALBEWAKING.NL
     </text>
 
   </g>

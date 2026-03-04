@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Packaging Box Dieline — 120 x 100 x 35mm (W x H x D) + 3mm bleed -->
 <!-- Material: 350gsm carton, Donker #1A1A2E base, white + Signaal Rood print -->
-<!-- Flat layout: Front(120x100) + Back(120x100) + 2xSide(35x100) + Glue(15) + Flaps -->
-<!-- Total flat: ~331mm x ~206mm -->
 <svg xmlns="http://www.w3.org/2000/svg"
      width="337mm" height="212mm"
      viewBox="0 0 1273.70 801.26">
@@ -10,294 +8,222 @@
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&amp;display=swap');
     </style>
   </defs>
 
-  <!-- 3mm bleed = 11.34pt offset on all sides -->
-  <!-- Trim area: 11.34 to 1262.36 (x = 331mm), 11.34 to 789.92 (y = 206mm) -->
-
-  <!-- Background: white for non-print areas -->
+  <!-- Background for non-print areas -->
   <rect width="1273.70" height="801.26" fill="#F5F5F5"/>
 
-  <!-- === PANEL LAYOUT (all coordinates relative to trim) === -->
-  <!-- X positions: Glue(15mm=56.69pt) | Side1(35mm=132.28pt) | Front(120mm=453.54pt) | Side2(35mm=132.28pt) | Back(120mm=453.54pt) -->
-  <!-- Y positions: TopFlap(35mm=132.28pt) | Body(100mm=377.95pt) | BottomFlap(35mm=132.28pt) -->
-  <!-- Y: dust flaps are half-depth = 17.5mm on sides -->
+  <!-- Panel positions (from trim 11.34pt):
+       Glue: x=11.34 w=56.69 | Side1: x=68.03 w=132.28 | Front: x=200.31 w=453.54
+       Side2: x=653.86 w=132.28 | Back: x=786.14 w=453.54
+       Top flaps: y=11.34 h=132.28 | Body: y=143.62 h=377.95 | Bottom flaps: y=521.57 h=132.28 -->
 
-  <!-- Glue tab: x=11.34, w=56.69 -->
-  <!-- Side 1: x=68.03, w=132.28 -->
-  <!-- Front: x=200.31, w=453.54 -->
-  <!-- Side 2: x=653.86, w=132.28 -->
-  <!-- Back: x=786.14, w=453.54 -->
-
-  <!-- Top flaps y: 11.34, h=132.28 -->
-  <!-- Body y: 143.62, h=377.95 -->
-  <!-- Bottom flaps y: 521.57, h=132.28 -->
-
-  <!-- === CUT LINES (black solid) === -->
+  <!-- === CUT LINES === -->
   <g fill="none" stroke="#000000" stroke-width="0.5">
-
-    <!-- Main body outline -->
-    <!-- Glue tab (angled) -->
     <path d="M28.34 143.62 L11.34 160 L11.34 505 L28.34 521.57 L68.03 521.57 L68.03 143.62 Z"/>
-
-    <!-- Side 1 body -->
     <rect x="68.03" y="143.62" width="132.28" height="377.95"/>
-
-    <!-- Front body -->
     <rect x="200.31" y="143.62" width="453.54" height="377.95"/>
-
-    <!-- Side 2 body -->
     <rect x="653.86" y="143.62" width="132.28" height="377.95"/>
-
-    <!-- Back body -->
     <rect x="786.14" y="143.62" width="453.54" height="377.95"/>
-
-    <!-- Top flaps -->
-    <!-- Side 1 dust flap (half depth = 17.5mm = 66.14pt) -->
-    <path d="M68.03 143.62 L68.03 77.48 L80 77.48 L200.31 77.48 L200.31 143.62"/>
-
-    <!-- Front top tuck flap (full depth = 35mm = 132.28pt) -->
+    <path d="M68.03 143.62 L68.03 77.48 L200.31 77.48 L200.31 143.62"/>
     <path d="M200.31 143.62 L200.31 11.34 L653.86 11.34 L653.86 143.62"/>
-
-    <!-- Side 2 dust flap -->
     <path d="M653.86 143.62 L653.86 77.48 L786.14 77.48 L786.14 143.62"/>
-
-    <!-- Back top tuck flap -->
     <path d="M786.14 143.62 L786.14 11.34 L1239.68 11.34 L1239.68 143.62"/>
-
-    <!-- Bottom flaps -->
-    <!-- Side 1 dust flap -->
     <path d="M68.03 521.57 L68.03 587.71 L200.31 587.71 L200.31 521.57"/>
-
-    <!-- Front bottom tuck flap -->
     <path d="M200.31 521.57 L200.31 653.86 L653.86 653.86 L653.86 521.57"/>
-
-    <!-- Side 2 dust flap -->
     <path d="M653.86 521.57 L653.86 587.71 L786.14 587.71 L786.14 521.57"/>
-
-    <!-- Back bottom tuck flap -->
     <path d="M786.14 521.57 L786.14 653.86 L1239.68 653.86 L1239.68 521.57"/>
-
   </g>
 
-  <!-- === FOLD LINES (red dashed) === -->
+  <!-- === FOLD LINES === -->
   <g fill="none" stroke="#C41E24" stroke-width="0.25" stroke-dasharray="4,2">
-    <!-- Vertical folds between panels -->
     <line x1="68.03" y1="11.34" x2="68.03" y2="653.86"/>
     <line x1="200.31" y1="11.34" x2="200.31" y2="653.86"/>
     <line x1="653.86" y1="11.34" x2="653.86" y2="653.86"/>
     <line x1="786.14" y1="11.34" x2="786.14" y2="653.86"/>
-
-    <!-- Horizontal folds (body to flaps) -->
     <line x1="11.34" y1="143.62" x2="1239.68" y2="143.62"/>
     <line x1="11.34" y1="521.57" x2="1239.68" y2="521.57"/>
   </g>
 
-  <!-- === ARTWORK ON PANELS === -->
-
-  <!-- FRONT PANEL artwork (120x100mm, centered) -->
+  <!-- ============ FRONT PANEL (120x100mm) ============ -->
   <g>
     <rect x="200.31" y="143.62" width="453.54" height="377.95" fill="#1A1A2E"/>
-
-    <!-- Red border inset (2mm = 7.56pt) -->
+    <!-- Red border inset -->
     <rect x="207.87" y="151.18" width="438.42" height="362.83" fill="none" stroke="#C41E24" stroke-width="1.5" rx="3"/>
 
-    <!-- SIGNAAL -->
-    <text x="427.08" y="270"
-          font-family="Montserrat, sans-serif"
-          font-weight="800"
-          font-size="36"
-          fill="#FFFFFF"
-          text-anchor="middle"
-          letter-spacing="4">
-      SIGNAAL
-    </text>
-
-    <!-- BEWAKING -->
-    <text x="427.08" y="310"
-          font-family="Montserrat, sans-serif"
-          font-weight="800"
-          font-size="36"
-          fill="#FFFFFF"
-          text-anchor="middle"
-          letter-spacing="4">
-      BEWAKING
-    </text>
-
-    <!-- Shield logo centered -->
-    <g transform="translate(414.58, 330)">
-      <path d="M12.5 0 L25 5 L25 15 C25 22 19 27 12.5 30 C6 27 0 22 0 15 L0 5 Z"
-            fill="none" stroke="#C41E24" stroke-width="1.5"/>
-      <g transform="translate(6.5, 8) scale(0.5)" fill="none" stroke="#FFFFFF" stroke-width="2.5">
-        <path stroke-linecap="round" d="M9.348 14.652a3.75 3.75 0 010-5.304m5.304 0a3.75 3.75 0 010 5.304m-7.425 2.121a6.75 6.75 0 010-9.546m9.546 0a6.75 6.75 0 010 9.546"/>
-      </g>
+    <!-- Real logo (white variant, large, centered) -->
+    <g transform="translate(392, 210) scale(3)">
+      <path d="M8 8C8 8 24 4 24 4C24 4 40 8 40 8C40 8 40 26 40 26C40 36 24 44 24 44C24 44 8 36 8 26V8Z"
+            fill="#FFFFFF" opacity="0.95"/>
+      <path d="M20 22L24 26L32 16" stroke="#C41E24" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round" fill="none"/>
     </g>
+    <!-- Logo text -->
+    <text text-anchor="middle" font-family="Roboto, sans-serif" font-weight="700">
+      <tspan x="427" y="350" font-size="22" fill="#FFFFFF">Signaal</tspan>
+      <tspan x="427" y="375" font-size="22" fill="#FFFFFF" opacity="0.8">Bewaking</tspan>
+    </text>
+
+    <!-- 24/7 MELDKAMER -->
+    <text x="427" y="410"
+          font-family="Montserrat, sans-serif" font-weight="800"
+          font-size="11" fill="#FFFFFF" text-anchor="middle" letter-spacing="3" opacity="0.8">
+      24/7 MELDKAMER
+    </text>
+
+    <!-- Separator -->
+    <line x1="380" y1="425" x2="474" y2="425" stroke="#C41E24" stroke-width="1" opacity="0.6"/>
 
     <!-- Tagline -->
-    <text x="427.08" y="385"
-          font-family="Montserrat, sans-serif"
-          font-weight="400"
-          font-size="8"
-          fill="#FFFFFF"
-          text-anchor="middle"
-          letter-spacing="1.5"
-          opacity="0.7">
-      ALTIJD VERBONDEN MET VEILIGHEID
+    <text x="427" y="445"
+          font-family="Montserrat, sans-serif" font-weight="600"
+          font-size="8" fill="#FFFFFF" text-anchor="middle" letter-spacing="1" opacity="0.5">
+      Uw partner.
     </text>
 
-    <!-- signaalbewaking.nl bottom -->
-    <text x="427.08" y="500"
-          font-family="Montserrat, sans-serif"
-          font-weight="600"
-          font-size="7"
-          fill="#FFFFFF"
-          text-anchor="middle"
-          letter-spacing="0.8"
-          opacity="0.5">
+    <!-- Cert icons -->
+    <text x="427" y="475"
+          font-family="Montserrat, sans-serif" font-weight="400"
+          font-size="5.5" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5" opacity="0.35">
+      Kiwa · ISO 27001 · EN 50518
+    </text>
+
+    <!-- URL -->
+    <text x="427" y="500"
+          font-family="Montserrat, sans-serif" font-weight="600"
+          font-size="7" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.8" opacity="0.45">
       signaalbewaking.nl
     </text>
   </g>
 
-  <!-- BACK PANEL artwork (120x100mm) -->
+  <!-- ============ BACK PANEL (120x100mm) ============ -->
   <g>
     <rect x="786.14" y="143.62" width="453.54" height="377.95" fill="#1A1A2E"/>
 
-    <!-- Powered by SignaalApp -->
-    <text x="1012.91" y="260"
-          font-family="Montserrat, sans-serif"
-          font-weight="400"
-          font-size="8"
-          fill="#FFFFFF"
-          text-anchor="middle"
-          letter-spacing="1"
-          opacity="0.6">
-      POWERED BY
+    <!-- Beurs info top -->
+    <text x="1012.91" y="200"
+          font-family="Montserrat, sans-serif" font-weight="600"
+          font-size="7" fill="#FFFFFF" text-anchor="middle" letter-spacing="1" opacity="0.4">
+      FIRE &amp; SAFETY BEURS 2026
     </text>
-    <text x="1012.91" y="280"
-          font-family="Montserrat, sans-serif"
-          font-weight="800"
-          font-size="14"
-          fill="#FFFFFF"
-          text-anchor="middle"
-          letter-spacing="1.5">
-      SIGNAALAPP
+    <text x="1012.91" y="215"
+          font-family="Montserrat, sans-serif" font-weight="400"
+          font-size="6" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5" opacity="0.3">
+      Stand B.21 — Brabanthallen Den Bosch
     </text>
 
-    <!-- QR placeholder -->
-    <rect x="975" y="310" width="76" height="76" fill="#FFFFFF" rx="3"/>
-    <text x="1013" y="353"
-          font-family="Montserrat, sans-serif"
-          font-weight="600"
-          font-size="8"
-          fill="#888888"
-          text-anchor="middle">QR</text>
+    <!-- QR placeholder (large, centered) -->
+    <rect x="974" y="240" width="78" height="78" fill="#FFFFFF" rx="3"/>
+    <!-- QR pattern suggestion -->
+    <g transform="translate(981, 247)">
+      <rect x="0" y="0" width="16" height="16" fill="#333"/>
+      <rect x="48" y="0" width="16" height="16" fill="#333"/>
+      <rect x="0" y="48" width="16" height="16" fill="#333"/>
+      <rect x="3" y="3" width="10" height="10" fill="#fff"/>
+      <rect x="51" y="3" width="10" height="10" fill="#fff"/>
+      <rect x="3" y="51" width="10" height="10" fill="#fff"/>
+      <rect x="6" y="6" width="4" height="4" fill="#333"/>
+      <rect x="54" y="6" width="4" height="4" fill="#333"/>
+      <rect x="6" y="54" width="4" height="4" fill="#333"/>
+      <rect x="20" y="20" width="24" height="24" fill="#333" opacity="0.1" rx="2"/>
+      <text x="32" y="35" font-family="Montserrat, sans-serif" font-weight="800" font-size="7" fill="#C41E24" text-anchor="middle">SB</text>
+    </g>
 
     <!-- URL under QR -->
-    <text x="1012.91" y="405"
-          font-family="Montserrat, sans-serif"
-          font-weight="400"
-          font-size="6.5"
-          fill="#FFFFFF"
-          text-anchor="middle"
-          letter-spacing="0.5"
-          opacity="0.5">
+    <text x="1012.91" y="335"
+          font-family="Montserrat, sans-serif" font-weight="400"
+          font-size="6" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5" opacity="0.5">
       signaalbewaking.nl/fss
     </text>
 
-    <!-- Fire Safety Beurs reference -->
+    <!-- CTA -->
+    <text font-family="Montserrat, sans-serif" font-weight="800"
+          font-size="10" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.3">
+      <tspan x="1012.91" y="380">Scan voor exclusieve</tspan>
+      <tspan x="1012.91" y="395">beurscondities</tspan>
+    </text>
+
+    <!-- Separator -->
+    <line x1="960" y1="415" x2="1066" y2="415" stroke="#C41E24" stroke-width="0.75" opacity="0.5"/>
+
+    <!-- Powered by -->
+    <text x="1012.91" y="440"
+          font-family="Montserrat, sans-serif" font-weight="400"
+          font-size="6" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.3" opacity="0.3">
+      Powered by SignaalApp
+    </text>
+
+    <!-- Schipper Security -->
     <text x="1012.91" y="490"
-          font-family="Montserrat, sans-serif"
-          font-weight="400"
-          font-size="6"
-          fill="#FFFFFF"
-          text-anchor="middle"
-          letter-spacing="0.3"
-          opacity="0.4">
-      Fire &amp; Safety Beurs 2026
+          font-family="Montserrat, sans-serif" font-weight="400"
+          font-size="5" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.3" opacity="0.25">
+      Onderdeel van Schipper Security
     </text>
   </g>
 
-  <!-- SIDE 1 artwork (35x100mm) -->
+  <!-- ============ SIDE PANELS ============ -->
   <g>
     <rect x="68.03" y="143.62" width="132.28" height="377.95" fill="#1A1A2E"/>
     <text x="134.17" y="332.60"
-          font-family="Montserrat, sans-serif"
-          font-weight="800"
-          font-size="10"
-          fill="#FFFFFF"
-          text-anchor="middle"
-          letter-spacing="1.5"
+          font-family="Montserrat, sans-serif" font-weight="800"
+          font-size="10" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5"
           transform="rotate(-90, 134.17, 332.60)">
       SIGNAALBEWAKING.NL
     </text>
   </g>
-
-  <!-- SIDE 2 artwork (35x100mm) -->
   <g>
     <rect x="653.86" y="143.62" width="132.28" height="377.95" fill="#1A1A2E"/>
     <text x="720" y="332.60"
-          font-family="Montserrat, sans-serif"
-          font-weight="800"
-          font-size="10"
-          fill="#FFFFFF"
-          text-anchor="middle"
-          letter-spacing="1.5"
+          font-family="Montserrat, sans-serif" font-weight="800"
+          font-size="10" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5"
           transform="rotate(-90, 720, 332.60)">
       SIGNAALBEWAKING.NL
     </text>
   </g>
 
-  <!-- TOP FRONT FLAP: thin red border inset -->
+  <!-- ============ FLAPS ============ -->
+  <!-- Top front flap with logo -->
   <g>
     <rect x="200.31" y="11.34" width="453.54" height="132.28" fill="#1A1A2E"/>
     <rect x="207.87" y="18.90" width="438.42" height="117.16" fill="none" stroke="#C41E24" stroke-width="0.75" rx="2"/>
+    <!-- Small centered logo -->
+    <g transform="translate(415, 55) scale(1.2)">
+      <path d="M8 8C8 8 24 4 24 4C24 4 40 8 40 8C40 8 40 26 40 26C40 36 24 44 24 44C24 44 8 36 8 26V8Z"
+            fill="#FFFFFF" opacity="0.5"/>
+      <path d="M20 22L24 26L32 16" stroke="#C41E24" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.5"/>
+    </g>
   </g>
+  <!-- Top back flap -->
+  <rect x="786.14" y="11.34" width="453.54" height="132.28" fill="#1A1A2E"/>
 
-  <!-- TOP BACK FLAP -->
-  <g>
-    <rect x="786.14" y="11.34" width="453.54" height="132.28" fill="#1A1A2E"/>
-  </g>
-
-  <!-- BOTTOM FLAPS (plain dark) -->
+  <!-- Bottom flaps -->
   <rect x="200.31" y="521.57" width="453.54" height="132.28" fill="#1A1A2E"/>
   <rect x="786.14" y="521.57" width="453.54" height="132.28" fill="#1A1A2E"/>
 
-  <!-- Side dust flaps (lighter) -->
+  <!-- Side dust flaps -->
   <rect x="68.03" y="77.48" width="132.28" height="66.14" fill="#1A1A2E" opacity="0.8"/>
   <rect x="653.86" y="77.48" width="132.28" height="66.14" fill="#1A1A2E" opacity="0.8"/>
   <rect x="68.03" y="521.57" width="132.28" height="66.14" fill="#1A1A2E" opacity="0.8"/>
   <rect x="653.86" y="521.57" width="132.28" height="66.14" fill="#1A1A2E" opacity="0.8"/>
 
-  <!-- Glue tab (no print) -->
+  <!-- Glue tab -->
   <path d="M28.34 143.62 L11.34 160 L11.34 505 L28.34 521.57 L68.03 521.57 L68.03 143.62 Z"
         fill="#E0E0E0" stroke="#000000" stroke-width="0.5"/>
-  <text x="40" y="335"
-        font-family="monospace" font-size="6" fill="#999999"
-        text-anchor="middle"
-        transform="rotate(-90, 40, 335)">GLUE TAB</text>
+  <text x="40" y="335" font-family="monospace" font-size="6" fill="#999"
+        text-anchor="middle" transform="rotate(-90, 40, 335)">GLUE TAB</text>
 
-  <!-- === REGISTRATION MARKS (corners) === -->
+  <!-- Registration marks -->
   <g stroke="#000000" stroke-width="0.3" fill="none">
-    <!-- Top-left -->
-    <line x1="3" y1="3" x2="9" y2="3"/>
-    <line x1="3" y1="3" x2="3" y2="9"/>
-    <circle cx="3" cy="3" r="2"/>
-    <!-- Top-right -->
-    <line x1="1264" y1="3" x2="1270" y2="3"/>
-    <line x1="1270" y1="3" x2="1270" y2="9"/>
-    <circle cx="1270" cy="3" r="2"/>
-    <!-- Bottom-left -->
-    <line x1="3" y1="795" x2="9" y2="795"/>
-    <line x1="3" y1="789" x2="3" y2="795"/>
-    <circle cx="3" cy="795" r="2"/>
-    <!-- Bottom-right -->
-    <line x1="1264" y1="795" x2="1270" y2="795"/>
-    <line x1="1270" y1="789" x2="1270" y2="795"/>
-    <circle cx="1270" cy="795" r="2"/>
+    <line x1="3" y1="3" x2="9" y2="3"/><line x1="3" y1="3" x2="3" y2="9"/><circle cx="3" cy="3" r="2"/>
+    <line x1="1264" y1="3" x2="1270" y2="3"/><line x1="1270" y1="3" x2="1270" y2="9"/><circle cx="1270" cy="3" r="2"/>
+    <line x1="3" y1="795" x2="9" y2="795"/><line x1="3" y1="789" x2="3" y2="795"/><circle cx="3" cy="795" r="2"/>
+    <line x1="1264" y1="795" x2="1270" y2="795"/><line x1="1270" y1="789" x2="1270" y2="795"/><circle cx="1270" cy="795" r="2"/>
   </g>
 
-  <!-- Dimension annotations (factory layer, non-print) -->
+  <!-- Dimension annotations -->
   <g opacity="0.25" fill="none" stroke="#0066CC" stroke-width="0.3" font-size="4" font-family="monospace">
     <text x="427" y="670" fill="#0066CC" text-anchor="middle">Front: 120x100mm | Sides: 35x100mm | Flaps: 35mm | 350gsm carton</text>
     <text x="427" y="680" fill="#0066CC" text-anchor="middle">Base: #1A1A2E (Pantone 5395 C) | Print: White + #C41E24 (Pantone 200 C)</text>

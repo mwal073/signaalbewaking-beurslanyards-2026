@@ -33,7 +33,7 @@
     SIGNAALBEWAKING.NL
   </text>
 
-  <!-- LINE 2: Tagline — centered, medium weight -->
+  <!-- LINE 2: Brand promise — THE differentiator -->
   <text x="264.57" y="46"
         font-family="Montserrat, sans-serif"
         font-weight="600"
@@ -43,30 +43,29 @@
         letter-spacing="1.5"
         opacity="0.85"
         text-rendering="geometricPrecision">
-    ALTIJD VERBONDEN MET VEILIGHEID
+    UW PARTNER
   </text>
 
-  <!-- LOGO: SignaalBewaking shield icon (simplified, centered) -->
-  <g transform="translate(252.57, 51)">
-    <!-- Shield outline -->
-    <path d="M12.5 0 L25 5 L25 15 C25 22 19 27 12.5 30 C6 27 0 22 0 15 L0 5 Z"
-          fill="none" stroke="#FFFFFF" stroke-width="1.2" opacity="0.7"/>
-    <!-- Signal waves inside shield -->
-    <g transform="translate(6.5, 8) scale(0.5)" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.8">
-      <path stroke-linecap="round" d="M9.348 14.652a3.75 3.75 0 010-5.304m5.304 0a3.75 3.75 0 010 5.304m-7.425 2.121a6.75 6.75 0 010-9.546m9.546 0a6.75 6.75 0 010 9.546"/>
-    </g>
+  <!-- LOGO: Real SignaalBewaking shield + checkmark (centered, white fill, red check) -->
+  <g transform="translate(252.07, 50) scale(0.7)">
+    <!-- Shield shape — white filled for contrast on red -->
+    <path d="M16 8C16 8 24 4 24 4C24 4 32 8 32 8C32 8 32 22 32 22C32 30 24 36 24 36C24 36 16 30 16 22V8Z"
+          fill="#FFFFFF" opacity="0.85"/>
+    <!-- Checkmark — red stroke on white shield -->
+    <path d="M20 20L23 23.5L29 16" stroke="#C41E24" stroke-width="2.2"
+          stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   </g>
 
-  <!-- LINE 3: Powered by SignaalApp — smaller, centered -->
+  <!-- LINE 3: Cert line + Powered by -->
   <text x="264.57" y="88"
         font-family="Montserrat, sans-serif"
         font-weight="400"
-        font-size="7"
+        font-size="6"
         fill="#FFFFFF"
         text-anchor="middle"
-        letter-spacing="1"
-        opacity="0.65"
+        letter-spacing="0.8"
+        opacity="0.6"
         text-rendering="geometricPrecision">
-    POWERED BY SIGNAALAPP
+    24/7 MELDKAMER · KIWA GECERTIFICEERD · POWERED BY SIGNAALAPP
   </text>
 </svg>
