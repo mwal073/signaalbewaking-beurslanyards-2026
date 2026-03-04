@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Phone Insert Tab — T-shape, TPU + nylon reinforced, 0.6mm -->
+<!-- Print area: approximately 35mm x 18mm visible area -->
+<!-- Base: White TPU, Print: Signaal Rood #C41E24 -->
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="45mm" height="75mm"
+     viewBox="0 0 170.08 283.46">
+
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Tab outline — T-shape profile -->
+  <!-- Bottom strap: 8mm wide x 40mm long (slides into phone case) -->
+  <!-- Top plate: 35mm wide x 18mm tall (visible branding area) -->
+  <!-- Cord loop hole at bottom -->
+
+  <!-- Full tab shape -->
+  <g transform="translate(0, 0)">
+
+    <!-- T-shape outline -->
+    <path d="M10 0 L160 0 L160 68 L115 68 L115 250 C115 262 105 270 85 270 C65 270 55 262 55 250 L55 68 L10 68 Z"
+          fill="#FFFFFF" stroke="#CCCCCC" stroke-width="1"/>
+
+    <!-- Cord attachment hole -->
+    <circle cx="85" cy="255" r="8" fill="none" stroke="#CCCCCC" stroke-width="0.75"/>
+
+    <!-- === VISIBLE BRANDING AREA (top plate) === -->
+
+    <!-- SignaalBewaking shield logo — centered, top -->
+    <g transform="translate(72, 6)">
+      <path d="M12.5 0 L25 5 L25 15 C25 22 19 27 12.5 30 C6 27 0 22 0 15 L0 5 Z"
+            fill="#C41E24" stroke="none"/>
+      <g transform="translate(6.5, 8) scale(0.5)" fill="none" stroke="#FFFFFF" stroke-width="2.5">
+        <path stroke-linecap="round" d="M9.348 14.652a3.75 3.75 0 010-5.304m5.304 0a3.75 3.75 0 010 5.304m-7.425 2.121a6.75 6.75 0 010-9.546m9.546 0a6.75 6.75 0 010 9.546"/>
+      </g>
+    </g>
+
+    <!-- SIGNAALBEWAKING text -->
+    <text x="85" y="50"
+          font-family="Montserrat, sans-serif"
+          font-weight="800"
+          font-size="8"
+          fill="#C41E24"
+          text-anchor="middle"
+          letter-spacing="0.8">
+      SIGNAALBEWAKING
+    </text>
+
+    <!-- 24/7 MELDKAMER -->
+    <text x="85" y="60"
+          font-family="Montserrat, sans-serif"
+          font-weight="600"
+          font-size="5.5"
+          fill="#333333"
+          text-anchor="middle"
+          letter-spacing="1.2">
+      24/7 MELDKAMER
+    </text>
+
+    <!-- Thin red line separator -->
+    <line x1="55" y1="64" x2="115" y2="64" stroke="#C41E24" stroke-width="0.5" opacity="0.5"/>
+
+    <!-- On the strap portion (visible when hanging) -->
+    <!-- Powered by SignaalApp — vertical on strap -->
+    <text x="85" y="120"
+          font-family="Montserrat, sans-serif"
+          font-weight="400"
+          font-size="5"
+          fill="#888888"
+          text-anchor="middle"
+          letter-spacing="0.5"
+          transform="rotate(-90, 85, 120)">
+      POWERED BY SIGNAALAPP
+    </text>
+
+  </g>
+
+  <!-- Dimension annotations (for factory, non-print layer) -->
+  <g opacity="0.3" fill="none" stroke="#0066CC" stroke-width="0.3" font-size="4" font-family="monospace">
+    <text x="5" y="280" fill="#0066CC">35mm x 18mm visible plate, 8mm x 55mm strap, 0.6mm TPU+nylon</text>
+  </g>
+</svg>

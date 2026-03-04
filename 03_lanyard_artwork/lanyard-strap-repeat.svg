@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SignaalBewaking Lanyard Strap — Single Repeat Unit -->
+<!-- Size: 140mm x 25mm (1 repeat @ 14cm interval) -->
+<!-- Base: Signaal Rood #C41E24 (Pantone 200 C), Print: White sublimation -->
+<!-- Font: Montserrat ExtraBold — outline all text for final production -->
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="140mm" height="25mm"
+     viewBox="0 0 529.13 94.49">
+
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Background: Signaal Rood #C41E24 / Pantone 200 C / CMYK C5 M100 Y95 K2 -->
+  <rect width="529.13" height="94.49" fill="#C41E24"/>
+
+  <!-- Subtle dark accent pinstripe top (0.6mm) -->
+  <rect width="529.13" height="2.27" fill="#1A1A2E" opacity="0.2"/>
+  <!-- Subtle dark accent pinstripe bottom (0.6mm) -->
+  <rect y="92.22" width="529.13" height="2.27" fill="#1A1A2E" opacity="0.2"/>
+
+  <!-- LINE 1: SignaalBewaking.nl — primary wordmark, centered -->
+  <text x="264.57" y="27"
+        font-family="Montserrat, sans-serif"
+        font-weight="800"
+        font-size="17"
+        fill="#FFFFFF"
+        text-anchor="middle"
+        letter-spacing="1.2"
+        text-rendering="geometricPrecision">
+    SIGNAALBEWAKING.NL
+  </text>
+
+  <!-- LINE 2: Tagline — centered, medium weight -->
+  <text x="264.57" y="46"
+        font-family="Montserrat, sans-serif"
+        font-weight="600"
+        font-size="8.5"
+        fill="#FFFFFF"
+        text-anchor="middle"
+        letter-spacing="1.5"
+        opacity="0.85"
+        text-rendering="geometricPrecision">
+    ALTIJD VERBONDEN MET VEILIGHEID
+  </text>
+
+  <!-- LOGO: SignaalBewaking shield icon (simplified, centered) -->
+  <g transform="translate(252.57, 51)">
+    <!-- Shield outline -->
+    <path d="M12.5 0 L25 5 L25 15 C25 22 19 27 12.5 30 C6 27 0 22 0 15 L0 5 Z"
+          fill="none" stroke="#FFFFFF" stroke-width="1.2" opacity="0.7"/>
+    <!-- Signal waves inside shield -->
+    <g transform="translate(6.5, 8) scale(0.5)" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.8">
+      <path stroke-linecap="round" d="M9.348 14.652a3.75 3.75 0 010-5.304m5.304 0a3.75 3.75 0 010 5.304m-7.425 2.121a6.75 6.75 0 010-9.546m9.546 0a6.75 6.75 0 010 9.546"/>
+    </g>
+  </g>
+
+  <!-- LINE 3: Powered by SignaalApp — smaller, centered -->
+  <text x="264.57" y="88"
+        font-family="Montserrat, sans-serif"
+        font-weight="400"
+        font-size="7"
+        fill="#FFFFFF"
+        text-anchor="middle"
+        letter-spacing="1"
+        opacity="0.65"
+        text-rendering="geometricPrecision">
+    POWERED BY SIGNAALAPP
+  </text>
+</svg>
