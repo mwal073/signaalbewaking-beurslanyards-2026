@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Phone Insert Tab — T-shape, TPU + nylon reinforced, 0.6mm -->
-<!-- Print area: approximately 35mm x 18mm visible area -->
-<!-- Base: White TPU, Print: Signaal Rood #C41E24 -->
+<!-- Phone Tether Tab — Flat insert through charging port opening -->
+<!-- Slides through USB-C/Lightning port cutout on phone case -->
+<!-- Material: White TPU + nylon reinforcement, 0.5mm thick -->
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="45mm" height="75mm"
-     viewBox="0 0 170.08 283.46">
+     width="70mm" height="60mm"
+     viewBox="0 0 264.57 226.77">
 
   <defs>
     <style>
@@ -12,69 +12,84 @@
     </style>
   </defs>
 
-  <!-- T-shape outline -->
-  <g transform="translate(0, 0)">
+  <!-- Tab body — flat rectangular with narrower charging port section -->
+  <!-- Main body: ~50mm × 15mm = 188.98pt × 56.69pt -->
+  <g transform="translate(30, 30)">
 
-    <!-- T-shape body -->
-    <path d="M10 0 L160 0 L160 68 L115 68 L115 250 C115 262 105 270 85 270 C65 270 55 262 55 250 L55 68 L10 68 Z"
-          fill="#FFFFFF" stroke="#CCCCCC" stroke-width="1"/>
+    <!-- Main flat tab body -->
+    <path d="M0 10 Q0 0 10 0 L185 0 Q195 0 195 10 L195 47 Q195 57 185 57 L117 57 L117 72 Q117 80 108 80 L87 80 Q78 80 78 72 L78 57 L10 57 Q0 57 0 47 Z"
+          fill="#F8F8F8" stroke="#BBBBBB" stroke-width="1.2"/>
 
-    <!-- Cord attachment hole -->
-    <circle cx="85" cy="255" r="8" fill="none" stroke="#CCCCCC" stroke-width="0.75"/>
+    <!-- Charging port insert section (narrower, bottom) -->
+    <!-- This part goes through the case charging port opening -->
+    <rect x="82" y="57" width="31" height="23" rx="3" fill="#F0F0F0" stroke="#BBBBBB" stroke-width="0.8" stroke-dasharray="3,2"/>
+    <text x="97.5" y="72" text-anchor="middle" font-family="Montserrat, sans-serif" font-weight="600" font-size="4" fill="#999" letter-spacing="0.3">PORT</text>
 
-    <!-- === VISIBLE BRANDING AREA (top plate) === -->
+    <!-- D-ring / cord loop at bottom -->
+    <circle cx="97.5" cy="92" r="7" fill="none" stroke="#999999" stroke-width="1.5"/>
+    <line x1="92" y1="80" x2="92" y2="85" stroke="#999" stroke-width="1"/>
+    <line x1="103" y1="80" x2="103" y2="85" stroke="#999" stroke-width="1"/>
 
-    <!-- Real SignaalBewaking shield logo — centered, top -->
-    <g transform="translate(67, 4) scale(0.75)">
-      <!-- Shield filled red -->
-      <path d="M16 8C16 8 24 4 24 4C24 4 32 8 32 8C32 8 32 22 32 22C32 30 24 36 24 36C24 36 16 30 16 22V8Z"
-            fill="#D00A2B"/>
-      <!-- White checkmark -->
-      <path d="M20 20L23 23.5L29 16" stroke="#FFFFFF" stroke-width="2.2"
-            stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Logo print area on tab face -->
+    <rect x="20" y="8" width="155" height="40" rx="4" fill="#D00A2B" opacity="0.06" stroke="#D00A2B" stroke-width="0.4" stroke-dasharray="2,1"/>
+
+    <!-- Real SignaalBewaking logo -->
+    <g transform="translate(30, 12) scale(0.5)">
+      <path d="M8 8C8 8 24 4 24 4C24 4 40 8 40 8C40 8 40 26 40 26C40 36 24 44 24 44C24 44 8 36 8 26V8Z" fill="#D00A2B"/>
+      <path d="M20 22L24 26L32 16" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
     </g>
 
     <!-- SIGNAALBEWAKING text -->
-    <text x="85" y="50"
-          font-family="Montserrat, sans-serif"
-          font-weight="800"
-          font-size="8"
-          fill="#C41E24"
-          text-anchor="middle"
-          letter-spacing="0.8">
-      SIGNAALBEWAKING
-    </text>
+    <text x="60" y="22" font-family="Montserrat, sans-serif" font-weight="800" font-size="6.5" fill="#D00A2B" letter-spacing="0.5">SIGNAALBEWAKING</text>
 
     <!-- 24/7 MELDKAMER -->
-    <text x="85" y="60"
-          font-family="Montserrat, sans-serif"
-          font-weight="600"
-          font-size="5.5"
-          fill="#333333"
-          text-anchor="middle"
-          letter-spacing="1.2">
-      24/7 MELDKAMER
-    </text>
+    <text x="60" y="32" font-family="Montserrat, sans-serif" font-weight="600" font-size="5" fill="#666666" letter-spacing="0.8">24/7 MELDKAMER</text>
 
-    <!-- Thin red line separator -->
-    <line x1="55" y1="64" x2="115" y2="64" stroke="#C41E24" stroke-width="0.5" opacity="0.5"/>
+    <!-- Powered by -->
+    <text x="60" y="42" font-family="Montserrat, sans-serif" font-weight="400" font-size="4" fill="#999999" letter-spacing="0.5">Powered by SignaalApp</text>
 
-    <!-- On the strap portion — URL (more useful than SignaalApp) -->
-    <text x="85" y="120"
-          font-family="Montserrat, sans-serif"
-          font-weight="600"
-          font-size="4.5"
-          fill="#888888"
-          text-anchor="middle"
-          letter-spacing="0.8"
-          transform="rotate(-90, 85, 120)">
-      SIGNAALBEWAKING.NL
-    </text>
+    <!-- Dimension annotations -->
+    <!-- Width -->
+    <line x1="0" y1="-10" x2="195" y2="-10" stroke="#333" stroke-width="0.5"/>
+    <line x1="0" y1="-14" x2="0" y2="-6" stroke="#333" stroke-width="0.5"/>
+    <line x1="195" y1="-14" x2="195" y2="-6" stroke="#333" stroke-width="0.5"/>
+    <text x="97.5" y="-13" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="7" fill="#333" font-weight="600">50 mm</text>
+
+    <!-- Height body -->
+    <line x1="-15" y1="0" x2="-15" y2="57" stroke="#333" stroke-width="0.5"/>
+    <line x1="-19" y1="0" x2="-11" y2="0" stroke="#333" stroke-width="0.5"/>
+    <line x1="-19" y1="57" x2="-11" y2="57" stroke="#333" stroke-width="0.5"/>
+    <text x="-22" y="32" text-anchor="end" font-family="Montserrat, sans-serif" font-size="6" fill="#333" font-weight="600">15 mm</text>
+
+    <!-- Port insert width -->
+    <line x1="78" y1="110" x2="117" y2="110" stroke="#333" stroke-width="0.5"/>
+    <line x1="78" y1="106" x2="78" y2="114" stroke="#333" stroke-width="0.5"/>
+    <line x1="117" y1="106" x2="117" y2="114" stroke="#333" stroke-width="0.5"/>
+    <text x="97.5" y="122" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="6" fill="#333" font-weight="600">10 mm</text>
+
+    <!-- Callout boxes -->
+    <!-- Thickness -->
+    <rect x="210" y="10" width="50" height="18" rx="3" fill="#FFFBEB" stroke="#FBBF24" stroke-width="0.5"/>
+    <text x="235" y="19" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="5" fill="#92400E" font-weight="600">0.5mm</text>
+    <text x="235" y="25" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="3.5" fill="#92400E">THICKNESS</text>
+    <line x1="195" y1="20" x2="210" y2="20" stroke="#FBBF24" stroke-width="0.3" stroke-dasharray="2"/>
+
+    <!-- Material -->
+    <rect x="210" y="35" width="50" height="18" rx="3" fill="#F0FDF4" stroke="#86EFAC" stroke-width="0.5"/>
+    <text x="235" y="44" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="5" fill="#166534" font-weight="600">TPU</text>
+    <text x="235" y="50" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="3.5" fill="#166534">+ NYLON</text>
+    <line x1="195" y1="45" x2="210" y2="45" stroke="#86EFAC" stroke-width="0.3" stroke-dasharray="2"/>
+
+    <!-- D-ring label -->
+    <line x1="108" y1="92" x2="150" y2="92" stroke="#999" stroke-width="0.3" stroke-dasharray="2"/>
+    <text x="155" y="90" font-family="Montserrat, sans-serif" font-size="5" fill="#666">D-ring for</text>
+    <text x="155" y="97" font-family="Montserrat, sans-serif" font-size="5" fill="#666">lanyard cord</text>
 
   </g>
 
-  <!-- Dimension annotations (for factory, non-print layer) -->
-  <g opacity="0.3" fill="none" stroke="#0066CC" stroke-width="0.3" font-size="4" font-family="monospace">
-    <text x="5" y="280" fill="#0066CC">35mm x 18mm visible plate, 8mm x 55mm strap, 0.6mm TPU+nylon</text>
-  </g>
+  <!-- Factory note -->
+  <text x="132" y="218" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="5" fill="#999" letter-spacing="0.3">
+    Slides through charging port slot of phone case · Compatible iPhone 14-16 / Samsung S23-S25 / Pixel
+  </text>
+
 </svg>
