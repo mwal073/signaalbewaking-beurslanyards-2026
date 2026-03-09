@@ -2,7 +2,7 @@
 
 **Project:** 2.500 custom lanyards (1.500 phone crossbody + 1.000 badge/keychain)
 **Event:** Fire & Safety Beurs, 15-16 april 2026, Den Bosch
-**Deadline:** Delivery NL warehouse by 7 April 2026
+**Deadline:** Delivery NL warehouse by 23 March 2026
 **Budget target:** EUR 4-8 per complete set
 
 ---

@@ -2,8 +2,8 @@
 
 **Project:** Fire & Safety Beurs Give-away Set
 **Event:** Fire & Safety Beurs, 15-16 april 2026, Brabanthallen Den Bosch, Stand B.21
-**Deadline levering:** uiterlijk 7 april 2026
-**Contact:** info@signaalbewaking.nl
+**Deadline levering:** uiterlijk 23 maart 2026
+**Contact:** verkoop@signaalbewaking.nl
 
 ---
 
@@ -11,8 +11,8 @@
 
 | # | Item | Variant | Aantal | Verpakking |
 |---|---|---|---|---|
-| 1a | Telefoon crossbody lanyard | Complete set (koord + patch + karabijn + buckle + kaartje) | 1.500 | Per stuk in doosje |
-| 1b | Badge/sleutelhanger lanyard | Koord + draaihaak + buckle + kaartje | 1.000 | Per stuk in doosje |
+| 1a | Telefoon crossbody lanyard | Complete set (koord + patch + karabijn + buckle + kaartje) | 1.500 | Bulk in master carton |
+| 1b | Badge/sleutelhanger lanyard | Koord + draaihaak + buckle + kaartje | 1.000 | Bulk in master carton |
 | 2 | Recyclebox sticker | Vinyl wrap | 1 | Los |
 | | **Totaal lanyards** | | **2.500** | |
 
@@ -24,9 +24,10 @@
 | Eigenschap | Waarde |
 |---|---|
 | Type | Breed stoffen keycord |
-| Breedte | 20mm (±1mm) |
-| Materiaal | Polyester, stevig geweven, premium feel |
-| Lengte | ±900mm (standaard lanyardlengte) |
+| Breedte | 25mm (±1mm) — breder voor telefoongewicht |
+| Materiaal | Polyester, stevig geweven, premium feel, **draagkracht ≥ 5kg** |
+| Lengte variant 1a (crossbody) | 1500-1600mm (verstelbaar, crossbody) |
+| Lengte variant 1b (badge) | ±900mm (standaard lanyardlengte) |
 | Basiskleur | Knalrood — **#C41E24** / **Pantone 200 C** / CMYK C5 M100 Y95 K2 |
 | Bedrukking | Sublimatie (full dye-sub), dubbelzijdig |
 | Drukinkt | Wit |
@@ -47,18 +48,25 @@ Accent: subtiele donkere pinstripe (#1A1A2E, 20% opacity) aan boven- en onderkan
 ### Hardware — Variant 1a (Telefoon crossbody)
 | Onderdeel | Specificatie |
 |---|---|
-| Karabijn | Robuust metaal, geborsteld zilver (bij voorkeur) of mat zwart PVD |
-| Safety-buckle | Veiligheidsbreekpunt bij de nek, mat zwart |
+| Karabijn | Robuust zinklegering, geborsteld zilver of mat zwart PVD, **minimaal 25mm opening**, geschikt voor gewicht smartphone (~200g) |
+| Safety-buckle | Veiligheidsbreekpunt bij de nek, mat zwart, **breakkracht ≥ 3kg** |
 | Telefoon patch | Zie Item 1b hieronder |
-| Ringetje/haakje | Bevestiging patch aan karabijn |
+| D-ring / connector | Metalen D-ring of draaibare connector, bevestiging patch aan karabijn, **draagkracht ≥ 2kg** |
+| Koordlengte | 150-160cm (verstelbaar), crossbody draagbaar |
 
 ### Hardware — Variant 1b (Badge/sleutelhanger)
 | Onderdeel | Specificatie |
 |---|---|
-| Draaihaak | Metalen swivel hook, geborsteld zilver of mat zwart |
-| Safety-buckle | Veiligheidsbreekpunt bij de nek, mat zwart |
+| Draaihaak | Metalen swivel hook, zinklegering, geborsteld zilver of mat zwart, **minimaal 20mm opening** |
+| Safety-buckle | Veiligheidsbreekpunt bij de nek, mat zwart, **breakkracht ≥ 3kg** |
 
-**Kwaliteitseis hardware:** Moet 'veiligheid' uitstralen — GEEN goedkoop plastic clipje. Premium metaal, robuust.
+**Kwaliteitseis hardware:**
+- Moet 'veiligheid' en 'security' uitstralen — GEEN goedkoop plastic
+- Alle metaaldelen: zinklegering of roestvrij staal, **minimaal 2mm materiaaldikte**
+- Afwerking: geborsteld zilver of mat zwart PVD — stoer, industrieel uiterlijk
+- **Telefoongeschikt**: alle onderdelen moeten betrouwbaar een smartphone van 200-250g dragen
+- Karabijn moet met één hand te openen/sluiten zijn
+- Swivel (draai) op karabijn om verstrengeling te voorkomen
 
 ---
 
@@ -66,14 +74,15 @@ Accent: subtiele donkere pinstripe (#1A1A2E, 20% opacity) aan boven- en onderkan
 
 | Eigenschap | Waarde |
 |---|---|
-| Type | T-shape insert tab (schuift in telefoonhoesje) |
-| Materiaal | TPU, flexibel, 0.6mm dik, nylon versterkt |
-| Kleur basis | Wit of transparant |
-| Bedrukking | Rood schildlogo SignaalBewaking (#C41E24) |
-| Zichtbaar vlak | ±35mm x 18mm (bovenplaat) |
-| Strap | ±8mm breed x 55mm lang (glijdt in hoesje) |
-| Bevestigingsoog | Onderaan, voor koordbevestiging |
-| Compatibiliteit | Past in standaard telefoonhoesjes |
+| Type | Flat insert tab — schuift door charging port opening van telefoonhoesje |
+| Materiaal | TPU + nylon versterking, flexibel, **0.5mm dik** |
+| Kleur basis | Wit |
+| Bedrukking | Rood schildlogo SignaalBewaking (#C41E24) op zichtbaar vlak |
+| Tabblad (zichtbaar) | 50mm × 15mm (met afgeronde hoeken, r=3mm) |
+| Port-insert | 10mm breed × 6mm lang — past door USB-C/Lightning port opening |
+| D-ring | Metalen D-ring onderaan (∅7mm), voor koordbevestiging aan karabijn |
+| Compatibiliteit | iPhone 14-16, Samsung S23-S25, Pixel — past door standaard charging port cutout |
+| Trekkracht | Tab moet **≥ 3kg trekkracht** weerstaan zonder scheuren |
 
 ### Bedrukking phone patch
 | Element | Font/stijl | Grootte | Kleur |
@@ -220,10 +229,10 @@ Accent: subtiele donkere pinstripe (#1A1A2E, 20% opacity) aan boven- en onderkan
 | Sample bestelling | Week 10-11 |
 | Sample goedkeuring | Week 12 |
 | Productiestart | Week 12-13 |
-| Levering warehouse NL | Week 14 (uiterlijk 7 april) |
+| Levering | Week 13 (uiterlijk 23 maart) — Vendelier 71, 3905 PD Veenendaal, NL, t.a.v. Michiel van der Wal |
 | Fire & Safety Beurs | 15-16 april 2026 |
 
 ---
 
 *Documentversie: 1.0 — 4 maart 2026*
-*Contact: info@signaalbewaking.nl*
+*Contact: verkoop@signaalbewaking.nl*

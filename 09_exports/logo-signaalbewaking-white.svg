@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 48" fill="none">
+  <!-- SignaalBewaking logo WHITE variant — for dark backgrounds -->
+  <rect width="120" height="48" rx="4" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <rect width="120" height="4" rx="2" fill="#C41E24"/>
+  <!-- SIGNAAL -->
+  <text x="60" y="24" font-family="Montserrat, sans-serif" font-weight="800" font-size="13" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">SIGNAAL</text>
+  <!-- BEWAKING -->
+  <text x="60" y="40" font-family="Montserrat, sans-serif" font-weight="800" font-size="11" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.2">BEWAKING</text>
+</svg>
