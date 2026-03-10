@@ -1,82 +1,122 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.1 259.8" width="170.1" height="259.8">
-  <!-- Marketing Card — Front — "Install slimmer met SignaalApp" -->
-  <rect width="170.1" height="259.8" rx="8" fill="#FFFFFF"/>
+  <!-- Marketing Card — Front — Dark style, strong stats, matching banner+website -->
+  <defs>
+    <linearGradient id="mcBg" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="60%" stop-color="#0e1a2b"/>
+      <stop offset="100%" stop-color="#1a0a10"/>
+    </linearGradient>
+    <radialGradient id="mcGlow" cx="0.5" cy="0.2" r="0.5">
+      <stop offset="0%" stop-color="rgba(6,182,212,0.08)"/>
+      <stop offset="100%" stop-color="rgba(6,182,212,0)"/>
+    </radialGradient>
+  </defs>
 
-  <!-- Top accent bar -->
-  <rect x="0" y="0" width="170.1" height="5" rx="8 8 0 0" fill="#C41E24"/>
+  <!-- Dark background -->
+  <rect width="170.1" height="259.8" rx="8" fill="url(#mcBg)"/>
+  <rect width="170.1" height="259.8" rx="8" fill="url(#mcGlow)"/>
 
-  <!-- SignaalApp logo area -->
-  <g transform="translate(85.05, 28)">
-    <!-- Shield icon -->
-    <g transform="translate(-35, -8)">
-      <path d="M0-8L-8-5v5c0 6 3.6 11.5 8 13 4.4-1.5 8-7 8-13v-5L0-8z" fill="#C41E24"/>
-      <path d="M-3 1L-1 3L5-2" fill="none" stroke="#fff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Red accent bars -->
+  <rect x="0" y="0" width="170.1" height="3" rx="8 8 0 0" fill="#C41E24"/>
+  <rect x="0" y="256.8" width="170.1" height="3" rx="0 0 8 8" fill="#C41E24"/>
+
+  <!-- SIGNAALAPP header -->
+  <g transform="translate(85.05, 20)">
+    <text x="-12" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="9" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.3">SIGNAAL</text>
+    <text x="26" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="9" fill="#06B6D4" text-anchor="middle" letter-spacing="0.3">APP</text>
+  </g>
+
+  <!-- Tagline -->
+  <text x="85.05" y="33" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="4.2" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="1">WEG MET PAPIERWERK</text>
+
+  <!-- Divider -->
+  <line x1="30" y1="40" x2="140" y2="40" stroke="rgba(196,30,36,0.3)" stroke-width="0.5"/>
+
+  <!-- Stats row (like banner) -->
+  <g transform="translate(0, 48)">
+    <!-- Stat 1 -->
+    <g transform="translate(29, 0)">
+      <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="14" fill="#C41E24" text-anchor="middle">80%</text>
+      <text x="0" y="9" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="3.8" fill="rgba(255,255,255,0.5)" text-anchor="middle">MINDER</text>
+      <text x="0" y="14" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="3.8" fill="rgba(255,255,255,0.5)" text-anchor="middle">ADMINISTRATIE</text>
     </g>
-    <!-- SignaalApp text -->
-    <text x="-16" y="-3" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="10" fill="#1A1A2E">Signaal</text>
-    <text x="-16" y="8" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="10" fill="#C41E24">App</text>
+    <!-- Stat 2 -->
+    <g transform="translate(85, 0)">
+      <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="14" fill="#C41E24" text-anchor="middle">3x</text>
+      <text x="0" y="9" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="3.8" fill="rgba(255,255,255,0.5)" text-anchor="middle">MEER</text>
+      <text x="0" y="14" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="3.8" fill="rgba(255,255,255,0.5)" text-anchor="middle">LEADS</text>
+    </g>
+    <!-- Stat 3 -->
+    <g transform="translate(141, 0)">
+      <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="14" fill="#C41E24" text-anchor="middle">24/7</text>
+      <text x="0" y="9" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="3.8" fill="rgba(255,255,255,0.5)" text-anchor="middle">MELD-</text>
+      <text x="0" y="14" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="3.8" fill="rgba(255,255,255,0.5)" text-anchor="middle">KAMER</text>
+    </g>
   </g>
 
   <!-- Divider -->
-  <line x1="20" y1="44" x2="150" y2="44" stroke="#E8E8E8" stroke-width="0.5"/>
+  <line x1="30" y1="72" x2="140" y2="72" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
 
-  <!-- Headline -->
-  <g transform="translate(85.05, 62)">
-    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="9" fill="#1A1A2E" text-anchor="middle">INSTALL SLIMMER</text>
-    <text x="0" y="13" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="9" fill="#C41E24" text-anchor="middle">MET SIGNAALAPP</text>
+  <!-- Features list -->
+  <g transform="translate(16, 82)">
+    <g>
+      <rect x="0" y="0" width="4" height="4" rx="1" fill="#C41E24"/>
+      <text x="8" y="3.5" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="5" fill="#FFFFFF">Offerte in 3 minuten</text>
+      <text x="108" y="3.5" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="3.5" fill="rgba(6,182,212,0.7)" text-anchor="end">3 uur bespaard</text>
+    </g>
+    <g transform="translate(0, 14)">
+      <rect x="0" y="0" width="4" height="4" rx="1" fill="#C41E24"/>
+      <text x="8" y="3.5" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="5" fill="#FFFFFF">VRKI zonder gedoe</text>
+      <text x="108" y="3.5" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="3.5" fill="rgba(6,182,212,0.7)" text-anchor="end">60% sneller</text>
+    </g>
+    <g transform="translate(0, 28)">
+      <rect x="0" y="0" width="4" height="4" rx="1" fill="#C41E24"/>
+      <text x="8" y="3.5" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="5" fill="#FFFFFF">Schouw in 20 minuten</text>
+      <text x="108" y="3.5" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="3.5" fill="rgba(6,182,212,0.7)" text-anchor="end">direct in dossier</text>
+    </g>
+    <g transform="translate(0, 42)">
+      <rect x="0" y="0" width="4" height="4" rx="1" fill="#C41E24"/>
+      <text x="8" y="3.5" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="5" fill="#FFFFFF">PAC-aanmelding direct</text>
+      <text x="108" y="3.5" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="3.5" fill="rgba(6,182,212,0.7)" text-anchor="end">geen wachtrij</text>
+    </g>
+    <g transform="translate(0, 56)">
+      <rect x="0" y="0" width="4" height="4" rx="1" fill="#C41E24"/>
+      <text x="8" y="3.5" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="5" fill="#FFFFFF">Leads die naar jou komen</text>
+      <text x="108" y="3.5" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="3.5" fill="rgba(6,182,212,0.7)" text-anchor="end">gekwalificeerd</text>
+    </g>
+    <g transform="translate(0, 70)">
+      <rect x="0" y="0" width="4" height="4" rx="1" fill="#C41E24"/>
+      <text x="8" y="3.5" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="5" fill="#FFFFFF">Meer deals sluiten</text>
+      <text x="108" y="3.5" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="3.5" fill="rgba(6,182,212,0.7)" text-anchor="end">40% hogere conversie</text>
+    </g>
   </g>
 
-  <!-- Benefits -->
-  <g transform="translate(18, 92)">
-    <!-- Leads -->
-    <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="134" height="24" rx="3" fill="#FEF2F2"/>
-      <circle cx="14" cy="12" r="8" fill="#C41E24"/>
-      <text x="14" y="15" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle">📋</text>
-      <text x="28" y="9" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="5.5" fill="#1A1A2E">Ontvang installatie-leads</text>
-      <text x="28" y="17" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="4.2" fill="#666666">Direct opdrachten in je dashboard</text>
-    </g>
+  <!-- Divider -->
+  <line x1="20" y1="162" x2="150" y2="162" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
 
-    <!-- Meldkamer -->
-    <g transform="translate(0, 28)">
-      <rect x="0" y="0" width="134" height="24" rx="3" fill="#FEF2F2"/>
-      <circle cx="14" cy="12" r="8" fill="#C41E24"/>
-      <text x="14" y="15" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle">🔗</text>
-      <text x="28" y="9" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="5.5" fill="#1A1A2E">Direct naar de meldkamer</text>
-      <text x="28" y="17" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="4.2" fill="#666666">Verbind alarmsystemen met SignaalBewaking</text>
-    </g>
-
-    <!-- Sneller -->
-    <g transform="translate(0, 56)">
-      <rect x="0" y="0" width="134" height="24" rx="3" fill="#FEF2F2"/>
-      <circle cx="14" cy="12" r="8" fill="#C41E24"/>
-      <text x="14" y="15" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle">⚡</text>
-      <text x="28" y="9" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="5.5" fill="#1A1A2E">Werk sneller en eenvoudiger</text>
-      <text x="28" y="17" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="4.2" fill="#666666">Beheer installaties vanuit één platform</text>
-    </g>
-
-    <!-- Verdien -->
-    <g transform="translate(0, 84)">
-      <rect x="0" y="0" width="134" height="24" rx="3" fill="#FEF2F2"/>
-      <circle cx="14" cy="12" r="8" fill="#C41E24"/>
-      <text x="14" y="15" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle">💰</text>
-      <text x="28" y="9" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="5.5" fill="#1A1A2E">Verdien meer met beveiliging</text>
-      <text x="28" y="17" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="4.2" fill="#666666">Creëer terugkerende omzet</text>
-    </g>
+  <!-- Credential badges -->
+  <g transform="translate(85.05, 175)">
+    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="3.5" fill="rgba(255,255,255,0.35)" text-anchor="middle" letter-spacing="0.5">EN 50518 · ISO 27001 · VEB · PAC 00157</text>
   </g>
 
   <!-- Pro badge -->
-  <g transform="translate(85.05, 213)">
-    <rect x="-55" y="-9" width="110" height="20" rx="4" fill="#C41E24"/>
-    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="6.5" fill="#FFFFFF" text-anchor="middle">SIGNAALAPP PRO — 1 JAAR GRATIS</text>
-    <text x="0" y="8" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="4" fill="rgba(255,255,255,0.7)" text-anchor="middle">t.w.v. €99,95/maand</text>
+  <g transform="translate(85.05, 196)">
+    <rect x="-58" y="-11" width="116" height="24" rx="4" fill="#C41E24"/>
+    <text x="0" y="-2" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="7" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.3">PRO — 1 JAAR GRATIS</text>
+    <text x="0" y="8" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="4.5" fill="rgba(255,255,255,0.7)" text-anchor="middle">t.w.v. €1.199,40</text>
   </g>
 
-  <!-- QR code area -->
-  <g transform="translate(85.05, 244)">
-    <rect x="-14" y="-10" width="28" height="14" rx="2" fill="#1A1A2E"/>
-    <text x="0" y="-2" font-family="monospace" font-size="3.5" fill="#FFFFFF" text-anchor="middle">QR</text>
-    <text x="0" y="3" font-family="monospace" font-size="2.5" fill="rgba(255,255,255,0.6)" text-anchor="middle">signaalapp.nl</text>
-    <text x="22" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="4" fill="#C41E24">Scan &amp; start</text>
+  <!-- Scarcity -->
+  <text x="85.05" y="220" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="4" fill="rgba(255,255,255,0.4)" text-anchor="middle">Nog 77 van 100 gratis licenties</text>
+
+  <!-- QR + CTA -->
+  <g transform="translate(50, 230)">
+    <rect x="0" y="0" width="20" height="20" rx="2" fill="#FFFFFF"/>
+    <text x="10" y="9" font-family="monospace" font-size="3" fill="#0b1220" text-anchor="middle">QR</text>
+    <text x="10" y="14" font-family="monospace" font-size="2.5" fill="#888" text-anchor="middle">CODE</text>
+  </g>
+  <g transform="translate(78, 236)">
+    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="5.5" fill="#FFFFFF">Claim je Pro</text>
+    <text x="0" y="10" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="4.5" fill="#06B6D4">signaalapp.nl</text>
   </g>
 </svg>

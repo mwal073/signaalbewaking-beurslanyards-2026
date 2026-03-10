@@ -1,74 +1,74 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.1 259.8" width="170.1" height="259.8">
-  <!-- Joker Marketing Card — Front -->
-  <!-- 57mm x 87mm playing card -->
+  <!-- Joker Card — Front — Dark navy/red style matching banner -->
   <defs>
-    <linearGradient id="jokerGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#C41E24"/>
-      <stop offset="100%" stop-color="#8B0000"/>
+    <linearGradient id="jokerBg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="50%" stop-color="#0e1a2b"/>
+      <stop offset="100%" stop-color="#2a0a10"/>
     </linearGradient>
+    <radialGradient id="jokerGlow" cx="0.5" cy="0.35" r="0.5">
+      <stop offset="0%" stop-color="rgba(196,30,36,0.15)"/>
+      <stop offset="100%" stop-color="rgba(196,30,36,0)"/>
+    </radialGradient>
   </defs>
 
   <!-- Background -->
-  <rect width="170.1" height="259.8" rx="8" fill="url(#jokerGrad)"/>
+  <rect width="170.1" height="259.8" rx="8" fill="url(#jokerBg)"/>
+  <rect width="170.1" height="259.8" rx="8" fill="url(#jokerGlow)"/>
 
-  <!-- Subtle diagonal lines -->
-  <g opacity="0.04">
-    <line x1="0" y1="0" x2="170.1" y2="170.1" stroke="#fff" stroke-width="40"/>
-    <line x1="0" y1="90" x2="170.1" y2="259.8" stroke="#fff" stroke-width="40"/>
+  <!-- Red accent bars -->
+  <rect x="0" y="0" width="170.1" height="3" rx="8 8 0 0" fill="#C41E24"/>
+  <rect x="0" y="256.8" width="170.1" height="3" rx="0 0 8 8" fill="#C41E24"/>
+
+  <!-- Corner J markers -->
+  <text x="14" y="22" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="12" fill="#C41E24">J</text>
+  <text x="156" y="22" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="7" fill="rgba(255,255,255,0.25)" text-anchor="end">JOKER</text>
+  <g transform="translate(156, 248) rotate(180)">
+    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="12" fill="#C41E24">J</text>
   </g>
 
-  <!-- Top: JOKER label -->
-  <g transform="translate(85.05, 22)">
-    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="8" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="6">JOKER</text>
+  <!-- Headline -->
+  <g transform="translate(85.05, 50)">
+    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="13" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.3">DE JOKER</text>
+    <text x="0" y="16" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="13" fill="#C41E24" text-anchor="middle" letter-spacing="0.3">IN BEVEILIGING?</text>
   </g>
 
-  <!-- Main headline -->
-  <g transform="translate(85.05, 52)">
-    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="11" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">DE JOKER</text>
-    <text x="0" y="14" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="11" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">IN BEVEILIGING?</text>
-  </g>
+  <!-- Divider line -->
+  <line x1="30" y1="75" x2="140" y2="75" stroke="rgba(196,30,36,0.4)" stroke-width="0.5"/>
 
-  <!-- Divider -->
-  <line x1="40" y1="78" x2="130" y2="78" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
-
-  <!-- Joker illustration: question mark made of security icons -->
-  <g transform="translate(85.05, 120)" opacity="0.9">
-    <!-- Large question mark outline -->
-    <text x="0" y="15" font-family="Georgia, serif" font-weight="700" font-size="60" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" text-anchor="middle">?</text>
-    <!-- Shield with X (wrong move) -->
-    <g transform="translate(0, -15)">
-      <path d="M0-18L-14-12v10c0 10 6.4 19.5 14 22 7.6-2.5 14-12 14-22v-10L0-18z" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
-      <line x1="-6" y1="-4" x2="6" y2="8" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
-      <line x1="6" y1="-4" x2="-6" y2="8" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
-    </g>
+  <!-- Center: Shield with question mark -->
+  <g transform="translate(85.05, 125)">
+    <!-- Shield outline -->
+    <path d="M0-30L-22-20v14c0 16 10 30.5 22 35 12-4.5 22-19 22-35v-14L0-30z" fill="rgba(196,30,36,0.08)" stroke="rgba(196,30,36,0.4)" stroke-width="1"/>
+    <!-- X mark (wrong choice) -->
+    <line x1="-10" y1="-8" x2="10" y2="8" stroke="rgba(255,255,255,0.5)" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="10" y1="-8" x2="-10" y2="8" stroke="rgba(255,255,255,0.5)" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Question mark floating -->
+    <text x="22" y="-18" font-family="Georgia, serif" font-size="24" fill="rgba(196,30,36,0.5)" font-weight="700">?</text>
   </g>
 
   <!-- Body text -->
-  <g transform="translate(85.05, 165)">
-    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="5.8" fill="rgba(255,255,255,0.85)" text-anchor="middle">Sommige installateurs werken</text>
-    <text x="0" y="9" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="5.8" fill="rgba(255,255,255,0.85)" text-anchor="middle">nog zonder SignaalApp.</text>
+  <g transform="translate(85.05, 172)">
+    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="5.8" fill="rgba(255,255,255,0.65)" text-anchor="middle">Sommige installateurs werken</text>
+    <text x="0" y="9" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="5.8" fill="rgba(255,255,255,0.65)" text-anchor="middle">nog zonder SignaalApp.</text>
   </g>
 
-  <g transform="translate(85.05, 192)">
-    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="6" fill="#FFFFFF" text-anchor="middle">De slimme installateurs</text>
-    <text x="0" y="9.5" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="6" fill="#FFFFFF" text-anchor="middle">spelen de winnende kaart.</text>
+  <!-- Punchline in red box -->
+  <g transform="translate(85.05, 202)">
+    <rect x="-60" y="-10" width="120" height="22" rx="3" fill="#C41E24"/>
+    <text x="0" y="-1" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="5.5" fill="#FFFFFF" text-anchor="middle">DE SLIMME INSTALLATEURS</text>
+    <text x="0" y="8" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="5.5" fill="#FFFFFF" text-anchor="middle">SPELEN DE WINNENDE KAART.</text>
   </g>
-
-  <!-- Divider -->
-  <line x1="50" y1="212" x2="120" y2="212" stroke="rgba(255,255,255,0.25)" stroke-width="0.5"/>
 
   <!-- CTA -->
-  <g transform="translate(85.05, 225)">
-    <rect x="-45" y="-7" width="90" height="15" rx="3" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.4)" stroke-width="0.5"/>
-    <text x="0" y="3" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="5.5" fill="#FFFFFF" text-anchor="middle">SCAN DE QR → SPEEL MEE</text>
+  <g transform="translate(85.05, 233)">
+    <rect x="-48" y="-6" width="96" height="14" rx="7" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="0.6"/>
+    <text x="0" y="3" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="5" fill="rgba(255,255,255,0.7)" text-anchor="middle" letter-spacing="0.5">SCAN DE QR &#x2192; SPEEL MEE</text>
   </g>
 
-  <!-- Bottom: SignaalApp -->
-  <g transform="translate(85.05, 248)">
-    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="4.5" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="1">SIGNAALAPP.NL</text>
+  <!-- SIGNAALAPP bottom -->
+  <g transform="translate(85.05, 252)">
+    <text x="-9" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="4.5" fill="rgba(255,255,255,0.4)" text-anchor="middle">SIGNAAL</text>
+    <text x="14" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="4.5" fill="rgba(6,182,212,0.5)" text-anchor="middle">APP</text>
   </g>
-
-  <!-- Corner: Joker symbols -->
-  <text x="14" y="18" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="9" fill="rgba(255,255,255,0.6)">J</text>
-  <text x="156" y="253" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="9" fill="rgba(255,255,255,0.6)" text-anchor="end" transform="rotate(180, 156, 249)">J</text>
 </svg>
