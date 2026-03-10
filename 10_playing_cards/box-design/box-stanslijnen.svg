@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="103mm" height="248mm" viewBox="0 0 1030 2480">
+  <!-- Stanslijnen speelkaartendoosje 57x87mm — exact volgens leverancier PDF template -->
+  <!-- Rood doorlopend = snijlijnen, Roze stippel = vouwlijnen, Cyaan = duimuitsparing -->
+
+  <!-- ═══ SNIJLIJNEN (rood doorlopend) ═══ -->
+
+  <!-- 1. Sluitklep boven (rechthoek + duimuitsparing cyaan) -->
+  <rect x="200" y="0" width="630" height="150" fill="none" stroke="#FF0000" stroke-width="1.5"/>
+  <ellipse cx="515" cy="0" rx="35" ry="10" fill="white" stroke="#00BFFF" stroke-width="1.5"/>
+
+  <!-- 2. Voorkant + zijkleppen (volle breedte rechthoek) -->
+  <rect x="0" y="150" width="1030" height="900" fill="none" stroke="#FF0000" stroke-width="1.5"/>
+
+  <!-- 3. Onderstrip midden -->
+  <rect x="200" y="1050" width="630" height="200" fill="none" stroke="#FF0000" stroke-width="1.5"/>
+
+  <!-- 4. Stofkleppen onderstrip (kleine rechthoeken) -->
+  <rect x="130" y="1050" width="70" height="200" fill="none" stroke="#FF0000" stroke-width="1.5"/>
+  <rect x="830" y="1050" width="70" height="200" fill="none" stroke="#FF0000" stroke-width="1.5"/>
+
+  <!-- 5. Achterkant + zijkleppen (iets smaller: 30-1000) -->
+  <rect x="30" y="1250" width="970" height="900" fill="none" stroke="#FF0000" stroke-width="1.5"/>
+
+  <!-- 6. Bovenstrip midden -->
+  <rect x="200" y="2150" width="630" height="180" fill="none" stroke="#FF0000" stroke-width="1.5"/>
+
+  <!-- 7. Stofkleppen bovenstrip (kleine rechthoeken) -->
+  <rect x="140" y="2150" width="60" height="180" fill="none" stroke="#FF0000" stroke-width="1.5"/>
+  <rect x="830" y="2150" width="60" height="180" fill="none" stroke="#FF0000" stroke-width="1.5"/>
+
+  <!-- 8. Instopklep onder (rechthoek + vergrendeling rood) -->
+  <rect x="200" y="2330" width="630" height="150" fill="none" stroke="#FF0000" stroke-width="1.5"/>
+  <ellipse cx="515" cy="2480" rx="35" ry="10" fill="white" stroke="#FF0000" stroke-width="1.5"/>
+
+  <!-- ═══ VOUWLIJNEN (roze stippel) ═══ -->
+
+  <!-- Horizontale vouwlijnen -->
+  <line x1="200" y1="150" x2="830" y2="150" stroke="#FF9999" stroke-width="1" stroke-dasharray="8,4"/>
+  <line x1="0" y1="1050" x2="1030" y2="1050" stroke="#FF9999" stroke-width="1" stroke-dasharray="8,4"/>
+  <line x1="30" y1="1250" x2="1000" y2="1250" stroke="#FF9999" stroke-width="1" stroke-dasharray="8,4"/>
+  <line x1="200" y1="2150" x2="830" y2="2150" stroke="#FF9999" stroke-width="1" stroke-dasharray="8,4"/>
+  <line x1="200" y1="2330" x2="830" y2="2330" stroke="#FF9999" stroke-width="1" stroke-dasharray="8,4"/>
+
+  <!-- Verticale vouwlijnen voorkant -->
+  <line x1="200" y1="150" x2="200" y2="1050" stroke="#FF9999" stroke-width="1" stroke-dasharray="8,4"/>
+  <line x1="830" y1="150" x2="830" y2="1050" stroke="#FF9999" stroke-width="1" stroke-dasharray="8,4"/>
+
+  <!-- Verticale vouwlijnen achterkant -->
+  <line x1="200" y1="1250" x2="200" y2="2150" stroke="#FF9999" stroke-width="1" stroke-dasharray="8,4"/>
+  <line x1="830" y1="1250" x2="830" y2="2150" stroke="#FF9999" stroke-width="1" stroke-dasharray="8,4"/>
+
+  <!-- ═══ DIAGONALE VOUWLIJNEN achterkant zijkleppen (rood stippel) ═══ -->
+
+  <!-- Linker zijklep achterkant: 3 diagonale lijnen -->
+  <line x1="50" y1="1350" x2="180" y2="1500" stroke="#FF0000" stroke-width="0.75" stroke-dasharray="6,3"/>
+  <line x1="50" y1="1550" x2="180" y2="1700" stroke="#FF0000" stroke-width="0.75" stroke-dasharray="6,3"/>
+  <line x1="50" y1="1750" x2="180" y2="1900" stroke="#FF0000" stroke-width="0.75" stroke-dasharray="6,3"/>
+
+  <!-- Rechter zijklep achterkant: 3 diagonale lijnen -->
+  <line x1="980" y1="1350" x2="850" y2="1500" stroke="#FF0000" stroke-width="0.75" stroke-dasharray="6,3"/>
+  <line x1="980" y1="1550" x2="850" y2="1700" stroke="#FF0000" stroke-width="0.75" stroke-dasharray="6,3"/>
+  <line x1="980" y1="1750" x2="850" y2="1900" stroke="#FF0000" stroke-width="0.75" stroke-dasharray="6,3"/>
+
+  <!-- ═══ BINNENRECHTHOEKEN (lichtroze, bleed/print area) ═══ -->
+  <rect x="30" y="180" width="970" height="840" fill="none" stroke="#FFAAAA" stroke-width="0.5"/>
+  <rect x="60" y="1280" width="910" height="840" fill="none" stroke="#FFAAAA" stroke-width="0.5"/>
+</svg>

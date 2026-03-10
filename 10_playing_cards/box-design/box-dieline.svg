@@ -10,14 +10,14 @@
       <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
     </radialGradient>
     <clipPath id="topFlap"><rect x="200" y="0" width="630" height="150"/></clipPath>
-    <clipPath id="frontAll"><polygon points="200,150 830,150 1030,220 1030,980 830,1050 200,1050 0,980 0,220"/></clipPath>
+    <clipPath id="frontAll"><rect x="0" y="150" width="1030" height="900"/></clipPath>
     <clipPath id="bottomStrip"><rect x="200" y="1050" width="630" height="200"/></clipPath>
-    <clipPath id="dustL"><polygon points="120,1060 200,1050 200,1250 120,1240"/></clipPath>
-    <clipPath id="dustR"><polygon points="910,1060 830,1050 830,1250 910,1240"/></clipPath>
-    <clipPath id="backAll"><polygon points="200,1250 830,1250 1030,1320 1030,2080 830,2150 200,2150 0,2080 0,1320"/></clipPath>
+    <clipPath id="dustL"><rect x="130" y="1050" width="70" height="200"/></clipPath>
+    <clipPath id="dustR"><rect x="830" y="1050" width="70" height="200"/></clipPath>
+    <clipPath id="backAll"><rect x="30" y="1250" width="970" height="900"/></clipPath>
     <clipPath id="topStrip"><rect x="200" y="2150" width="630" height="180"/></clipPath>
-    <clipPath id="dustL2"><polygon points="140,2160 200,2150 200,2330 140,2320"/></clipPath>
-    <clipPath id="dustR2"><polygon points="890,2160 830,2150 830,2330 890,2320"/></clipPath>
+    <clipPath id="dustL2"><rect x="140" y="2150" width="60" height="180"/></clipPath>
+    <clipPath id="dustR2"><rect x="830" y="2150" width="60" height="180"/></clipPath>
     <clipPath id="tuckFlap"><rect x="200" y="2330" width="630" height="150"/></clipPath>
   </defs>
 
@@ -32,7 +32,7 @@
   <!-- Front panel (full width incl side tabs) -->
   <g clip-path="url(#frontAll)">
     <!-- Left side tab (tapered) -->
-    <polygon points="200,150 200,1050 0,980 0,220" fill="#0B1A2E"/>
+    <rect x="0" y="150" width="200" height="900" fill="#0B1A2E"/>
     <text transform="translate(100, 600) rotate(-90)" font-family="Montserrat, Arial, sans-serif" font-weight="900" font-size="28" fill="#FFF" text-anchor="middle" letter-spacing="3">SCHIPPERSECURITY.NL</text>
     <!-- Main front -->
     <rect x="200" y="150" width="630" height="900" fill="url(#bgGrad)"/>
@@ -45,7 +45,7 @@
     <text x="515" y="870" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="30" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">SLUIT JE AAN</text>
     <text x="515" y="1000" font-family="Montserrat, Arial, sans-serif" font-weight="500" font-size="18" fill="rgba(255,255,255,0.7)" text-anchor="middle" letter-spacing="1">schippersecurity.nl · signaalbewaking.nl · signaalapp.nl</text>
     <!-- Right side tab (tapered) -->
-    <polygon points="830,150 830,1050 1030,980 1030,220" fill="#C41E24"/>
+    <rect x="830" y="150" width="200" height="900" fill="#C41E24"/>
     <text transform="translate(930, 600) rotate(90)" font-family="Montserrat, Arial, sans-serif" font-weight="900" font-size="28" fill="#FFF" text-anchor="middle" letter-spacing="3">SIGNAALBEWAKING.NL</text>
   </g>
 
@@ -54,14 +54,14 @@
     <rect x="200" y="1050" width="630" height="200" fill="url(#bgGrad)"/>
   </g>
   <!-- Dust flaps (small rectangles, slightly tapered) -->
-  <g clip-path="url(#dustL)"><polygon points="120,1060 200,1050 200,1250 120,1240" fill="#0B1A2E"/></g>
-  <g clip-path="url(#dustR)"><polygon points="910,1060 830,1050 830,1250 910,1240" fill="#C41E24"/></g>
+  <g clip-path="url(#dustL)"><rect x="130" y="1050" width="70" height="200" fill="#0B1A2E"/></g>
+  <g clip-path="url(#dustR)"><rect x="830" y="1050" width="70" height="200" fill="#C41E24"/></g>
 
   <!-- Back panel (full width, slightly narrower side tabs, rotated 180°) -->
   <g clip-path="url(#backAll)">
     <!-- Side tabs -->
-    <polygon points="200,1250 200,2150 0,2080 0,1320" fill="#0B1A2E"/>
-    <polygon points="830,1250 830,2150 1030,2080 1030,1320" fill="#C41E24"/>
+    <rect x="30" y="1250" width="170" height="900" fill="#0B1A2E"/>
+    <rect x="830" y="1250" width="170" height="900" fill="#C41E24"/>
     <!-- Main back (rotated 180°) -->
     <g transform="rotate(180, 515, 1700)">
       <rect x="200" y="1250" width="630" height="900" fill="url(#bgGrad)"/>
@@ -85,8 +85,8 @@
     <rect x="200" y="2150" width="630" height="180" fill="url(#bgGrad)"/>
   </g>
   <!-- Dust flaps -->
-  <g clip-path="url(#dustL2)"><polygon points="140,2160 200,2150 200,2330 140,2320" fill="#0B1A2E"/></g>
-  <g clip-path="url(#dustR2)"><polygon points="890,2160 830,2150 830,2330 890,2320" fill="#C41E24"/></g>
+  <g clip-path="url(#dustL2)"><rect x="140" y="2150" width="60" height="180" fill="#0B1A2E"/></g>
+  <g clip-path="url(#dustR2)"><rect x="830" y="2150" width="60" height="180" fill="#C41E24"/></g>
 
   <!-- Tuck flap -->
   <g clip-path="url(#tuckFlap)">
