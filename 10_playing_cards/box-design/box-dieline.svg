@@ -1,171 +1,144 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 550" width="400" height="550">
-  <!-- Playing Card Tuck Box — matches Chinese template layout (5.7x8.7cm cards) -->
-  <!-- Box dimensions: ~63 x 90 x 18mm (W x H x D) for 55 cards -->
-  <!-- Layout: Front + Back panels with side flaps and tuck flaps -->
-  <!-- Scale: approx 2px per mm -->
+  <!-- Playing Card Tuck Box — Chinese template layout, correct logos -->
+  <!-- Box: ~63 x 90 x 18mm for 55 cards (57x87mm poker) -->
 
   <!-- ════════ FRONT PANEL (63 x 90mm = 126 x 180px) ════════ -->
   <g transform="translate(36, 36)">
-    <!-- Cut line (outer) -->
-    <rect x="0" y="0" width="126" height="180" fill="none" stroke="#FF0000" stroke-width="0.3" stroke-dasharray="2,1"/>
-
-    <!-- Panel background -->
-    <rect x="0" y="0" width="126" height="180" rx="0" fill="#0b1220"/>
-
-    <!-- Red accent top -->
+    <rect x="0" y="0" width="126" height="180" fill="#0b1220" stroke="#FF0000" stroke-width="0.3" stroke-dasharray="2,1"/>
     <rect x="0" y="0" width="126" height="4" fill="#C41E24"/>
 
-    <!-- SCHIPPER SECURITY logo block -->
+    <!-- SCHIPPER SECURITY logo (dark blue bg, white text, blue border) -->
     <g transform="translate(63, 28)">
-      <rect x="-35" y="-10" width="70" height="20" rx="2" fill="#162040" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/>
-      <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="7" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.2">SCHIPPER</text>
-      <text x="0" y="9" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="6.5" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">SECURITY</text>
+      <rect x="-34" y="-11" width="68" height="22" rx="2" fill="#1B3A6B" stroke="#2A5298" stroke-width="0.8"/>
+      <text x="0" y="-1" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="7.5" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.2">SCHIPPER</text>
+      <text x="0" y="8" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="7" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">SECURITY</text>
     </g>
 
-    <!-- SIGNAAL BEWAKING logo block -->
+    <!-- SIGNAAL BEWAKING logo (red top, white bottom, red border) -->
     <g transform="translate(63, 58)">
-      <rect x="-35" y="-10" width="70" height="20" rx="2" fill="#C41E24"/>
-      <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="7" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.2">SIGNAAL</text>
-      <text x="0" y="9" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="6.5" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">BEWAKING</text>
+      <rect x="-34" y="-11" width="68" height="22" rx="2" fill="none" stroke="#C41E24" stroke-width="1"/>
+      <rect x="-33" y="-10" width="66" height="10" fill="#C41E24"/>
+      <text x="0" y="-2.5" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="7" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.2">SIGNAAL</text>
+      <rect x="-33" y="0" width="66" height="10" fill="#FFFFFF"/>
+      <text x="0" y="7.5" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="6.5" fill="#1A1A2E" text-anchor="middle" letter-spacing="1">BEWAKING</text>
     </g>
 
-    <!-- Divider -->
     <line x1="20" y1="76" x2="106" y2="76" stroke="rgba(196,30,36,0.3)" stroke-width="0.3"/>
 
-    <!-- Headline -->
     <text x="63" y="92" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="8" fill="#FFFFFF" text-anchor="middle">DE SLIMME ZET</text>
     <text x="63" y="103" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="8" fill="#C41E24" text-anchor="middle">VOOR INSTALLATEURS</text>
 
-    <!-- Subtext -->
     <text x="63" y="118" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="4.5" fill="rgba(255,255,255,0.6)" text-anchor="middle">Ontvang leads</text>
     <text x="63" y="126" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="4.5" fill="rgba(255,255,255,0.6)" text-anchor="middle">Installeer sneller</text>
     <text x="63" y="134" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="4.5" fill="rgba(255,255,255,0.6)" text-anchor="middle">Verdien meer met beveiliging</text>
 
-    <!-- Shield icon -->
+    <!-- Shield -->
     <g transform="translate(63, 153)">
-      <path d="M0-10L-8-7v5c0 6 3.6 11 8 13 4.4-2 8-7 8-13v-5L0-10z" fill="none" stroke="rgba(196,30,36,0.4)" stroke-width="0.8"/>
-      <path d="M-3 0L-1 2L5-3" fill="none" stroke="#C41E24" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M0-10L-8-7v5c0 6 3.6 11 8 13 4.4-2 8-7 8-13v-5L0-10z" fill="none" stroke="rgba(196,30,36,0.35)" stroke-width="0.6"/>
+      <path d="M-3 0L-1 2L5-3" fill="none" stroke="#C41E24" stroke-width="1" stroke-linecap="round"/>
     </g>
 
-    <!-- Bottom: SIGNAALAPP -->
+    <!-- SIGNAALAPP bottom -->
     <g transform="translate(63, 173)">
       <text x="-9" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="5" fill="rgba(255,255,255,0.4)" text-anchor="middle">SIGNAAL</text>
       <text x="15" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="5" fill="rgba(6,182,212,0.5)" text-anchor="middle">APP</text>
     </g>
 
-    <!-- Red accent bottom -->
     <rect x="0" y="176" width="126" height="4" fill="#C41E24"/>
   </g>
 
-  <!-- ════════ LEFT SIDE FLAP (18 x 90mm = 36 x 180px) ════════ -->
+  <!-- ════════ LEFT SIDE (18 x 90mm = 36 x 180px) ════════ -->
   <g transform="translate(0, 36)">
-    <rect x="0" y="0" width="36" height="180" fill="none" stroke="#FF0000" stroke-width="0.3" stroke-dasharray="2,1"/>
-    <rect x="0" y="0" width="36" height="180" fill="#C41E24"/>
-    <!-- schippersecurity.nl vertical -->
-    <text transform="translate(20, 90) rotate(-90)" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="5.5" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">SCHIPPERSECURITY.NL</text>
+    <rect x="0" y="0" width="36" height="180" fill="#C41E24" stroke="#FF0000" stroke-width="0.3" stroke-dasharray="2,1"/>
+    <text transform="translate(20, 90) rotate(-90)" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="5.5" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">SCHIPPERSECURITY.NL</text>
   </g>
 
-  <!-- ════════ RIGHT SIDE FLAP (18 x 90mm = 36 x 180px) ════════ -->
+  <!-- ════════ RIGHT SIDE (18 x 90mm = 36 x 180px) ════════ -->
   <g transform="translate(162, 36)">
-    <rect x="0" y="0" width="36" height="180" fill="none" stroke="#FF0000" stroke-width="0.3" stroke-dasharray="2,1"/>
-    <rect x="0" y="0" width="36" height="180" fill="#C41E24"/>
-    <!-- signaalbewaking.nl vertical -->
-    <text transform="translate(16, 90) rotate(90)" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="5.5" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">SIGNAALBEWAKING.NL</text>
+    <rect x="0" y="0" width="36" height="180" fill="#C41E24" stroke="#FF0000" stroke-width="0.3" stroke-dasharray="2,1"/>
+    <text transform="translate(16, 90) rotate(90)" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="5.5" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">SIGNAALBEWAKING.NL</text>
   </g>
 
-  <!-- ════════ TOP TUCK FLAP (63 x 18mm = 126 x 36px) ════════ -->
+  <!-- ════════ TOP FLAP (signaalapp.nl) ════════ -->
   <g transform="translate(36, 0)">
-    <rect x="0" y="0" width="126" height="36" fill="none" stroke="#FF0000" stroke-width="0.3" stroke-dasharray="2,1"/>
-    <rect x="0" y="0" width="126" height="36" fill="#0b1220"/>
+    <rect x="0" y="0" width="126" height="36" fill="#0b1220" stroke="#FF0000" stroke-width="0.3" stroke-dasharray="2,1"/>
     <rect x="0" y="0" width="126" height="3" fill="#C41E24"/>
-    <!-- signaalapp.nl on top flap -->
     <g transform="translate(63, 22)">
-      <text x="-12" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="6" fill="rgba(255,255,255,0.6)" text-anchor="middle">SIGNAAL</text>
-      <text x="16" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="6" fill="rgba(6,182,212,0.6)" text-anchor="middle">APP.NL</text>
+      <text x="-12" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="6.5" fill="rgba(255,255,255,0.6)" text-anchor="middle">SIGNAAL</text>
+      <text x="18" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="6.5" fill="rgba(6,182,212,0.6)" text-anchor="middle">APP.NL</text>
     </g>
   </g>
 
-  <!-- ════════ BOTTOM TUCK FLAP (63 x 18mm = 126 x 36px) ════════ -->
+  <!-- ════════ BOTTOM FLAP ════════ -->
   <g transform="translate(36, 216)">
-    <rect x="0" y="0" width="126" height="36" fill="none" stroke="#FF0000" stroke-width="0.3" stroke-dasharray="2,1"/>
-    <rect x="0" y="0" width="126" height="36" fill="#0b1220"/>
+    <rect x="0" y="0" width="126" height="36" fill="#0b1220" stroke="#FF0000" stroke-width="0.3" stroke-dasharray="2,1"/>
     <rect x="0" y="33" width="126" height="3" fill="#C41E24"/>
   </g>
 
-  <!-- ════════ BACK PANEL (below, 63 x 90mm = 126 x 180px) ════════ -->
+  <!-- ════════ BACK PANEL ════════ -->
   <g transform="translate(36, 288)">
-    <rect x="0" y="0" width="126" height="180" fill="none" stroke="#FF0000" stroke-width="0.3" stroke-dasharray="2,1"/>
-    <rect x="0" y="0" width="126" height="180" fill="#0b1220"/>
-
-    <!-- Red accent top -->
+    <rect x="0" y="0" width="126" height="180" fill="#0b1220" stroke="#FF0000" stroke-width="0.3" stroke-dasharray="2,1"/>
     <rect x="0" y="0" width="126" height="4" fill="#C41E24"/>
 
-    <!-- Headline -->
-    <text x="63" y="25" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="6.5" fill="#FFFFFF" text-anchor="middle">DE INNOVATIEVE</text>
-    <text x="63" y="36" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="6.5" fill="#C41E24" text-anchor="middle">ALARMCENTRALE.</text>
+    <text x="63" y="22" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="6" fill="#FFFFFF" text-anchor="middle">DE INNOVATIEVE</text>
+    <text x="63" y="32" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="6" fill="#C41E24" text-anchor="middle">ALARMCENTRALE.</text>
 
-    <!-- Body text -->
-    <text x="63" y="52" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="4.2" fill="rgba(255,255,255,0.6)" text-anchor="middle">Verbind alarmsystemen direct</text>
-    <text x="63" y="60" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="4.2" fill="rgba(255,255,255,0.6)" text-anchor="middle">met de meldkamer van</text>
-    <text x="63" y="68" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="4.2" fill="rgba(255,255,255,0.6)" text-anchor="middle">SignaalBewaking.</text>
+    <text x="63" y="46" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="4" fill="rgba(255,255,255,0.55)" text-anchor="middle">Verbind alarmsystemen direct</text>
+    <text x="63" y="53" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="4" fill="rgba(255,255,255,0.55)" text-anchor="middle">met de meldkamer van</text>
+    <text x="63" y="60" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="4" fill="rgba(255,255,255,0.55)" text-anchor="middle">SignaalBewaking.</text>
 
-    <!-- Stats like banner -->
-    <g transform="translate(0, 82)">
+    <!-- Stats -->
+    <g transform="translate(0, 76)">
       <g transform="translate(32, 0)">
         <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="10" fill="#C41E24" text-anchor="middle">80%</text>
-        <text x="0" y="8" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="3" fill="rgba(255,255,255,0.4)" text-anchor="middle">MINDER ADMIN</text>
+        <text x="0" y="8" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="3" fill="rgba(255,255,255,0.35)" text-anchor="middle">MINDER ADMIN</text>
       </g>
       <g transform="translate(63, 0)">
         <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="10" fill="#C41E24" text-anchor="middle">24/7</text>
-        <text x="0" y="8" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="3" fill="rgba(255,255,255,0.4)" text-anchor="middle">MELDKAMER</text>
+        <text x="0" y="8" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="3" fill="rgba(255,255,255,0.35)" text-anchor="middle">MELDKAMER</text>
       </g>
       <g transform="translate(94, 0)">
         <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="10" fill="#C41E24" text-anchor="middle">3x</text>
-        <text x="0" y="8" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="3" fill="rgba(255,255,255,0.4)" text-anchor="middle">MEER LEADS</text>
+        <text x="0" y="8" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="3" fill="rgba(255,255,255,0.35)" text-anchor="middle">MEER LEADS</text>
       </g>
     </g>
 
     <!-- Pro badge -->
-    <g transform="translate(63, 110)">
-      <rect x="-40" y="-7" width="80" height="16" rx="3" fill="#C41E24"/>
-      <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="5.5" fill="#FFFFFF" text-anchor="middle">PRO — 1 JAAR GRATIS</text>
-      <text x="0" y="7" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="3.5" fill="rgba(255,255,255,0.6)" text-anchor="middle">t.w.v. €1.199,40</text>
+    <g transform="translate(63, 105)">
+      <rect x="-40" y="-7" width="80" height="15" rx="3" fill="#C41E24"/>
+      <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="5" fill="#FFFFFF" text-anchor="middle">PRO — 1 JAAR GRATIS</text>
+      <text x="0" y="6.5" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="3.2" fill="rgba(255,255,255,0.6)" text-anchor="middle">t.w.v. €1.199,40</text>
     </g>
 
-    <!-- QR code -->
-    <g transform="translate(63, 142)">
-      <rect x="-16" y="-16" width="32" height="32" rx="2" fill="#FFFFFF"/>
-      <text x="0" y="-4" font-family="monospace" font-size="5" fill="#0b1220" text-anchor="middle">QR CODE</text>
+    <!-- QR -->
+    <g transform="translate(63, 138)">
+      <rect x="-15" y="-15" width="30" height="30" rx="2" fill="#FFFFFF"/>
+      <text x="0" y="-3" font-family="monospace" font-size="5" fill="#0b1220" text-anchor="middle">QR CODE</text>
       <text x="0" y="4" font-family="monospace" font-size="3" fill="#888" text-anchor="middle">signaalapp.nl</text>
     </g>
 
-    <!-- Bottom text -->
-    <text x="63" y="170" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="3.5" fill="rgba(255,255,255,0.3)" text-anchor="middle" letter-spacing="0.5">EN 50518 · ISO 27001 · VEB · PAC 00157</text>
+    <!-- Creds -->
+    <text x="63" y="168" font-family="Montserrat, Arial, sans-serif" font-weight="500" font-size="3" fill="rgba(255,255,255,0.25)" text-anchor="middle" letter-spacing="0.5">EN 50518 · ISO 27001 · VEB · PAC 00157</text>
 
-    <!-- Red accent bottom -->
     <rect x="0" y="176" width="126" height="4" fill="#C41E24"/>
   </g>
 
-  <!-- ════════ FOLD LINES (blue dashed) ════════ -->
-  <!-- Horizontal folds -->
-  <line x1="0" y1="36" x2="198" y2="36" stroke="#0088FF" stroke-width="0.3" stroke-dasharray="3,2" opacity="0.5"/>
-  <line x1="36" y1="216" x2="162" y2="216" stroke="#0088FF" stroke-width="0.3" stroke-dasharray="3,2" opacity="0.5"/>
-  <line x1="36" y1="252" x2="162" y2="252" stroke="#0088FF" stroke-width="0.3" stroke-dasharray="3,2" opacity="0.5"/>
-  <line x1="36" y1="288" x2="162" y2="288" stroke="#0088FF" stroke-width="0.3" stroke-dasharray="3,2" opacity="0.5"/>
-  <line x1="36" y1="468" x2="162" y2="468" stroke="#0088FF" stroke-width="0.3" stroke-dasharray="3,2" opacity="0.5"/>
-  <!-- Vertical folds -->
-  <line x1="36" y1="0" x2="36" y2="252" stroke="#0088FF" stroke-width="0.3" stroke-dasharray="3,2" opacity="0.5"/>
-  <line x1="162" y1="0" x2="162" y2="252" stroke="#0088FF" stroke-width="0.3" stroke-dasharray="3,2" opacity="0.5"/>
+  <!-- ════════ FOLD LINES ════════ -->
+  <line x1="0" y1="36" x2="198" y2="36" stroke="#0088FF" stroke-width="0.3" stroke-dasharray="3,2" opacity="0.4"/>
+  <line x1="36" y1="216" x2="162" y2="216" stroke="#0088FF" stroke-width="0.3" stroke-dasharray="3,2" opacity="0.4"/>
+  <line x1="36" y1="252" x2="162" y2="252" stroke="#0088FF" stroke-width="0.3" stroke-dasharray="3,2" opacity="0.4"/>
+  <line x1="36" y1="288" x2="162" y2="288" stroke="#0088FF" stroke-width="0.3" stroke-dasharray="3,2" opacity="0.4"/>
+  <line x1="36" y1="0" x2="36" y2="252" stroke="#0088FF" stroke-width="0.3" stroke-dasharray="3,2" opacity="0.4"/>
+  <line x1="162" y1="0" x2="162" y2="252" stroke="#0088FF" stroke-width="0.3" stroke-dasharray="3,2" opacity="0.4"/>
 
-  <!-- Labels (non-print) -->
-  <text x="245" y="30" font-family="monospace" font-size="7" fill="#999">PANEL LAYOUT:</text>
-  <text x="245" y="45" font-family="monospace" font-size="5.5" fill="#AAA">Top flap: signaalapp.nl</text>
-  <text x="245" y="57" font-family="monospace" font-size="5.5" fill="#AAA">Left side: schippersecurity.nl</text>
-  <text x="245" y="69" font-family="monospace" font-size="5.5" fill="#AAA">Right side: signaalbewaking.nl</text>
-  <text x="245" y="81" font-family="monospace" font-size="5.5" fill="#AAA">Front: logos + headline</text>
-  <text x="245" y="93" font-family="monospace" font-size="5.5" fill="#AAA">Back: stats + QR + Pro badge</text>
-
-  <text x="245" y="115" font-family="monospace" font-size="5.5" fill="#C41E24">Box: ~63 x 90 x 18mm</text>
-  <text x="245" y="127" font-family="monospace" font-size="5.5" fill="#C41E24">Cards: 57 x 87mm (poker)</text>
-  <text x="245" y="139" font-family="monospace" font-size="5.5" fill="#C41E24">Deck: 52 + 2 jokers + 1 marketing</text>
+  <!-- Panel labels -->
+  <text x="230" y="30" font-family="monospace" font-size="7" fill="#888">TUCK BOX LAYOUT</text>
+  <text x="230" y="44" font-family="monospace" font-size="5" fill="#AAA">Top flap: SIGNAALAPP.NL</text>
+  <text x="230" y="55" font-family="monospace" font-size="5" fill="#AAA">Left: SCHIPPERSECURITY.NL</text>
+  <text x="230" y="66" font-family="monospace" font-size="5" fill="#AAA">Right: SIGNAALBEWAKING.NL</text>
+  <text x="230" y="77" font-family="monospace" font-size="5" fill="#AAA">Front: logos + headline</text>
+  <text x="230" y="88" font-family="monospace" font-size="5" fill="#AAA">Back: stats + QR + Pro</text>
+  <text x="230" y="105" font-family="monospace" font-size="5" fill="#C41E24">Box: 63 x 90 x 18mm</text>
+  <text x="230" y="116" font-family="monospace" font-size="5" fill="#C41E24">Cards: 57 x 87mm poker</text>
+  <text x="230" y="127" font-family="monospace" font-size="5" fill="#C41E24">Deck: 52+2 jokers+1 marketing</text>
 </svg>
