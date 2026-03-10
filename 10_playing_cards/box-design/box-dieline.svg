@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700" width="500" height="700">
+  <!-- Playing Card Box — Dieline for 57x87mm cards (poker size) -->
+  <!-- Box dimensions: ~65 x 93 x 20mm (W x H x D) -->
+  <!-- Scale: 1mm = ~2.5px for clarity -->
+
+  <!-- ========== BACK PANEL (65 x 93mm) ========== -->
+  <g transform="translate(50, 50)">
+    <rect width="162" height="232" fill="#1A1A2E" rx="0"/>
+
+    <!-- Content -->
+    <text x="81" y="30" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="9" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">MET SIGNAALAPP</text>
+    <text x="81" y="42" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="9" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">VERBIND JE DIRECT</text>
+    <text x="81" y="54" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="9" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">MET DE MELDKAMER</text>
+
+    <line x1="30" y1="64" x2="132" y2="64" stroke="rgba(255,255,255,0.2)" stroke-width="0.5"/>
+
+    <text x="81" y="80" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="5.5" fill="rgba(255,255,255,0.7)" text-anchor="middle">Installateurs ontvangen leads,</text>
+    <text x="81" y="90" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="5.5" fill="rgba(255,255,255,0.7)" text-anchor="middle">installeren sneller en beheren</text>
+    <text x="81" y="100" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="5.5" fill="rgba(255,255,255,0.7)" text-anchor="middle">hun installaties eenvoudiger.</text>
+
+    <line x1="30" y1="112" x2="132" y2="112" stroke="rgba(255,255,255,0.2)" stroke-width="0.5"/>
+
+    <text x="81" y="128" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="6" fill="#FFFFFF" text-anchor="middle">Scan de QR en sluit je aan.</text>
+
+    <!-- QR placeholder -->
+    <rect x="51" y="140" width="60" height="60" rx="3" fill="#FFFFFF"/>
+    <text x="81" y="172" font-family="monospace" font-size="6" fill="#1A1A2E" text-anchor="middle">QR CODE</text>
+    <text x="81" y="180" font-family="monospace" font-size="4" fill="#888" text-anchor="middle">signaalapp.nl</text>
+
+    <!-- Logos bottom -->
+    <text x="81" y="215" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="4" fill="rgba(255,255,255,0.4)" text-anchor="middle" letter-spacing="1.5">SCHIPPER SECURITY</text>
+    <text x="81" y="225" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="3.5" fill="rgba(255,255,255,0.3)" text-anchor="middle">signaalbewaking.nl</text>
+  </g>
+
+  <!-- ========== LEFT SIDE (20 x 93mm) ========== -->
+  <g transform="translate(212, 50)">
+    <rect width="50" height="232" fill="#C41E24"/>
+    <text transform="translate(28, 116) rotate(90)" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="7" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">SIGNAALAPP.NL</text>
+  </g>
+
+  <!-- ========== FRONT PANEL (65 x 93mm) ========== -->
+  <g transform="translate(262, 50)">
+    <rect width="162" height="232" fill="#C41E24"/>
+
+    <!-- Inner border -->
+    <rect x="6" y="6" width="150" height="220" rx="3" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.8"/>
+
+    <!-- SignaalBewaking logo -->
+    <g transform="translate(81, 35)">
+      <rect x="-35" y="-14" width="70" height="28" rx="2.5" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+      <rect x="-35" y="-14" width="70" height="2.5" fill="rgba(255,255,255,0.3)"/>
+      <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="8.5" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">SIGNAAL</text>
+      <text x="0" y="11" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="7" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.8">BEWAKING</text>
+    </g>
+
+    <!-- Main headline -->
+    <text x="81" y="82" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="8.5" fill="#FFFFFF" text-anchor="middle">DE SLIMME ZET</text>
+    <text x="81" y="95" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="8.5" fill="#FFFFFF" text-anchor="middle">VOOR INSTALLATEURS</text>
+
+    <!-- Divider -->
+    <line x1="35" y1="105" x2="127" y2="105" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+
+    <!-- Subtext -->
+    <text x="81" y="120" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="5.2" fill="rgba(255,255,255,0.85)" text-anchor="middle">Ontvang leads</text>
+    <text x="81" y="131" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="5.2" fill="rgba(255,255,255,0.85)" text-anchor="middle">Installeer sneller</text>
+    <text x="81" y="142" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="5.2" fill="rgba(255,255,255,0.85)" text-anchor="middle">Verdien meer met beveiliging</text>
+
+    <!-- Playing card symbol -->
+    <g transform="translate(81, 175)">
+      <!-- Spade symbol (security = protection) -->
+      <path d="M0-15c-10 8-18 16-18 22 0 8 8 12 14 8l-2 8h12l-2-8c6 4 14 0 14-8 0-6-8-14-18-22z" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.4)" stroke-width="0.8"/>
+    </g>
+
+    <!-- QR -->
+    <g transform="translate(81, 205)">
+      <rect x="-14" y="-8" width="28" height="16" rx="2" fill="rgba(255,255,255,0.15)"/>
+      <text x="0" y="2" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="4.5" fill="#FFFFFF" text-anchor="middle">signaalapp.nl</text>
+    </g>
+
+    <!-- Schipper Security -->
+    <text x="81" y="228" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="3.5" fill="rgba(255,255,255,0.4)" text-anchor="middle" letter-spacing="1.5">SCHIPPER SECURITY</text>
+  </g>
+
+  <!-- ========== RIGHT SIDE (20 x 93mm) ========== -->
+  <g transform="translate(424, 50)">
+    <rect width="50" height="232" fill="#C41E24"/>
+    <text transform="translate(22, 116) rotate(-90)" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="7" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">SIGNAALBEWAKING.NL</text>
+  </g>
+
+  <!-- ========== TOP FLAP (65 x 20mm) ========== -->
+  <g transform="translate(262, 0)">
+    <rect width="162" height="50" fill="#8B0000"/>
+    <rect x="4" y="4" width="154" height="42" rx="2" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/>
+  </g>
+
+  <!-- ========== BOTTOM FLAP (65 x 20mm) ========== -->
+  <g transform="translate(262, 282)">
+    <rect width="162" height="50" fill="#8B0000"/>
+    <rect x="4" y="4" width="154" height="42" rx="2" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/>
+  </g>
+
+  <!-- Fold lines (dashed) -->
+  <line x1="50" y1="50" x2="50" y2="282" stroke="#0088FF" stroke-width="0.3" stroke-dasharray="4,2" opacity="0.5"/>
+  <line x1="212" y1="50" x2="212" y2="282" stroke="#0088FF" stroke-width="0.3" stroke-dasharray="4,2" opacity="0.5"/>
+  <line x1="262" y1="0" x2="262" y2="332" stroke="#0088FF" stroke-width="0.3" stroke-dasharray="4,2" opacity="0.5"/>
+  <line x1="424" y1="50" x2="424" y2="282" stroke="#0088FF" stroke-width="0.3" stroke-dasharray="4,2" opacity="0.5"/>
+  <line x1="262" y1="50" x2="474" y2="50" stroke="#0088FF" stroke-width="0.3" stroke-dasharray="4,2" opacity="0.5"/>
+  <line x1="262" y1="282" x2="474" y2="282" stroke="#0088FF" stroke-width="0.3" stroke-dasharray="4,2" opacity="0.5"/>
+
+  <!-- Labels -->
+  <text x="131" y="380" font-family="monospace" font-size="8" fill="#888" text-anchor="middle">BACK</text>
+  <text x="237" y="380" font-family="monospace" font-size="8" fill="#888" text-anchor="middle">LEFT</text>
+  <text x="343" y="380" font-family="monospace" font-size="8" fill="#888" text-anchor="middle">FRONT</text>
+  <text x="449" y="380" font-family="monospace" font-size="8" fill="#888" text-anchor="middle">RIGHT</text>
+  <text x="343" y="395" font-family="monospace" font-size="6" fill="#aaa" text-anchor="middle">Playing Card Box — 65 x 93 x 20mm — SignaalApp Campaign</text>
+</svg>

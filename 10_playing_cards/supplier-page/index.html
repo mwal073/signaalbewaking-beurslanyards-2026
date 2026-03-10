@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing Card Production Specification — SignaalBewaking / SignaalApp</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Montserrat', Arial, sans-serif; color: #333; background: #f5f5f5; }
+        .container { max-width: 960px; margin: 0 auto; padding: 20px; }
+        h1 { font-size: 28px; font-weight: 800; color: #1A1A2E; margin-bottom: 8px; }
+        h2 { font-size: 20px; font-weight: 700; color: #C41E24; margin: 32px 0 16px; border-bottom: 2px solid #C41E24; padding-bottom: 8px; }
+        h3 { font-size: 16px; font-weight: 700; color: #1A1A2E; margin: 20px 0 8px; }
+        p { line-height: 1.7; margin-bottom: 12px; }
+        .header { background: #1A1A2E; color: white; padding: 32px 20px; margin-bottom: 24px; }
+        .header p { color: rgba(255,255,255,0.7); }
+        .badge { display: inline-block; background: #C41E24; color: white; padding: 4px 12px; border-radius: 4px; font-size: 12px; font-weight: 700; }
+        table { width: 100%; border-collapse: collapse; margin: 12px 0 20px; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+        th { background: #1A1A2E; color: white; padding: 10px 14px; text-align: left; font-size: 13px; font-weight: 700; }
+        td { padding: 10px 14px; border-bottom: 1px solid #EEE; font-size: 13px; }
+        tr:last-child td { border-bottom: none; }
+        .color-swatch { display: inline-block; width: 24px; height: 24px; border-radius: 4px; vertical-align: middle; margin-right: 8px; border: 1px solid #DDD; }
+        .section { background: white; border-radius: 12px; padding: 24px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+        .preview-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0; }
+        .preview-item { background: #FAFAFA; border-radius: 8px; padding: 16px; text-align: center; border: 1px solid #EEE; }
+        .preview-item img { max-width: 100%; border-radius: 4px; }
+        .preview-label { font-size: 13px; font-weight: 700; color: #1A1A2E; margin-top: 8px; }
+        .important { background: #FEF2F2; border-left: 4px solid #C41E24; padding: 12px 16px; margin: 16px 0; border-radius: 0 8px 8px 0; }
+        .important strong { color: #C41E24; }
+        ul { margin: 8px 0 16px 20px; }
+        li { margin-bottom: 6px; line-height: 1.6; font-size: 14px; }
+        .card-demo {
+            display: inline-block;
+            border-radius: 6px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div class="container">
+        <span class="badge">PRODUCTION SPECIFICATION</span>
+        <h1 style="color: white; margin-top: 12px;">Custom Playing Card Deck</h1>
+        <p>Brand: SignaalBewaking / SignaalApp — Schipper Security B.V.</p>
+        <p>Event: Fire & Safety Trade Show — Den Bosch, Netherlands — April 15-16, 2026</p>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="section">
+        <h2>1. Product Overview 产品概述</h2>
+        <table>
+            <tr><th>Item</th><th>Specification</th></tr>
+            <tr><td><strong>Product</strong></td><td>Custom promotional playing card deck (poker size)</td></tr>
+            <tr><td><strong>Card size</strong></td><td>57mm × 87mm (standard poker / bridge)</td></tr>
+            <tr><td><strong>Cards per deck</strong></td><td>52 standard + 2 joker cards + 1 marketing card = 55 cards</td></tr>
+            <tr><td><strong>Card material</strong></td><td>350gsm blue core card stock (casino grade)</td></tr>
+            <tr><td><strong>Card finish</strong></td><td>Matte laminate, smooth feel</td></tr>
+            <tr><td><strong>Quantity</strong></td><td>2,500 decks</td></tr>
+            <tr><td><strong>Box</strong></td><td>Custom printed tuck box, 350gsm</td></tr>
+            <tr><td><strong>Deadline</strong></td><td>Delivery before April 1, 2026</td></tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>2. Color Specification 颜色规格</h2>
+        <div class="important">
+            <strong>Important:</strong> Colors must be Pantone accurate. Please provide a physical proof before production.
+        </div>
+        <table>
+            <tr><th>Color Name</th><th>HEX</th><th>CMYK</th><th>Pantone</th><th>Usage</th></tr>
+            <tr>
+                <td><span class="color-swatch" style="background:#C41E24;"></span>Signaal Red</td>
+                <td>#C41E24</td><td>C5 M100 Y95 K2</td><td>200 C</td>
+                <td>Card back, joker card, box front</td>
+            </tr>
+            <tr>
+                <td><span class="color-swatch" style="background:#1A1A2E;"></span>Dark</td>
+                <td>#1A1A2E</td><td>C80 M75 Y45 K70</td><td>5395 C</td>
+                <td>Box back, QR background</td>
+            </tr>
+            <tr>
+                <td><span class="color-swatch" style="background:#FFFFFF; border: 1px solid #DDD;"></span>White</td>
+                <td>#FFFFFF</td><td>C0 M0 Y0 K0</td><td>—</td>
+                <td>Text on card back, marketing card bg</td>
+            </tr>
+            <tr>
+                <td><span class="color-swatch" style="background:#333333;"></span>Dark Gray</td>
+                <td>#333333</td><td>C0 M0 Y0 K85</td><td>Cool Gray 11</td>
+                <td>Body text on white</td>
+            </tr>
+            <tr>
+                <td><span class="color-swatch" style="background:#E8343A;"></span>Accent Red</td>
+                <td>#E8343A</td><td>C0 M90 Y75 K0</td><td>185 C</td>
+                <td>Highlights only</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>3. Card Back Design 牌背设计</h2>
+        <p>All 52 standard cards + jokers have the <strong>same back design</strong>.</p>
+        <table>
+            <tr><th>Element</th><th>Specification</th></tr>
+            <tr><td>Background</td><td>Signaal Red (#C41E24) — full bleed</td></tr>
+            <tr><td>Pattern</td><td>Subtle repeating shield/security pattern (white, 4-6% opacity)</td></tr>
+            <tr><td>Border</td><td>White inner frame (0.5pt, 15-20% opacity, 3mm from edge)</td></tr>
+            <tr><td>Center logo</td><td>SIGNAAL BEWAKING text logo (white, inside white border box)</td></tr>
+            <tr><td>Center icon</td><td>Shield with checkmark (white, 25% opacity, large)</td></tr>
+            <tr><td>Bottom text</td><td>"SCHIPPER SECURITY" (white, 40% opacity, small)</td></tr>
+            <tr><td>Bottom text 2</td><td>"POWERED BY SIGNAALAPP" (white, 35% opacity, smallest)</td></tr>
+            <tr><td>Symmetry</td><td>Design is 180° rotationally symmetrical</td></tr>
+        </table>
+        <div class="important">
+            <strong>File:</strong> <code>card-back/card-back.svg</code> — Vector source file for card back.
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>4. Joker Card (x2) 小丑牌</h2>
+        <p>The 2 joker cards are <strong>marketing cards</strong>. They have a custom front (different from standard joker). The back is the same as all other cards.</p>
+
+        <h3>Joker Front</h3>
+        <table>
+            <tr><th>Element</th><th>Specification</th></tr>
+            <tr><td>Background</td><td>Red gradient (#C41E24 → #8B0000)</td></tr>
+            <tr><td>Top text</td><td>"JOKER" — white, 50% opacity, letter-spacing 6px</td></tr>
+            <tr><td>Headline</td><td>"DE JOKER IN BEVEILIGING?" — white, bold</td></tr>
+            <tr><td>Center</td><td>Large "?" with shield icon (X inside = wrong choice)</td></tr>
+            <tr><td>Body</td><td>"Sommige installateurs werken nog zonder SignaalApp."</td></tr>
+            <tr><td>Punchline</td><td>"De slimme installateurs spelen de winnende kaart." — bold white</td></tr>
+            <tr><td>CTA</td><td>"SCAN DE QR → SPEEL MEE" in bordered pill</td></tr>
+            <tr><td>Bottom</td><td>"SIGNAALAPP.NL"</td></tr>
+            <tr><td>Corners</td><td>"J" top-left and bottom-right (rotated)</td></tr>
+        </table>
+
+        <h3>Joker Back (info side)</h3>
+        <table>
+            <tr><th>Element</th><th>Specification</th></tr>
+            <tr><td>Background</td><td>White</td></tr>
+            <tr><td>Top accent</td><td>Red bar (#C41E24), 4px</td></tr>
+            <tr><td>Headline</td><td>"MET SIGNAALAPP:" — dark, bold</td></tr>
+            <tr><td>Benefits</td><td>4 items with red checkmark circles</td></tr>
+            <tr><td>Badge</td><td>"SIGNAALAPP PRO — 1 JAAR GRATIS" (red bg, white text)</td></tr>
+            <tr><td>Value</td><td>"t.w.v. €99,95/maand" (gray, strikethrough)</td></tr>
+            <tr><td>QR code</td><td>Links to https://signaalapp.nl (dark bg)</td></tr>
+            <tr><td>Logos</td><td>SignaalBewaking (left) + Schipper Security (right)</td></tr>
+        </table>
+        <div class="important">
+            <strong>Files:</strong> <code>joker-card/joker-front.svg</code> and <code>joker-card/joker-back.svg</code>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>5. Marketing Card (x1) 营销卡</h2>
+        <p>One additional card per deck explaining the product benefits.</p>
+        <table>
+            <tr><th>Element</th><th>Specification</th></tr>
+            <tr><td>Front bg</td><td>White with red top accent bar</td></tr>
+            <tr><td>Headline</td><td>"INSTALL SLIMMER MET SIGNAALAPP"</td></tr>
+            <tr><td>Benefits</td><td>4 cards with icons: leads, meldkamer, sneller, verdien meer</td></tr>
+            <tr><td>Badge</td><td>"SIGNAALAPP PRO — 1 JAAR GRATIS" (red bg)</td></tr>
+            <tr><td>QR</td><td>Bottom center → signaalapp.nl</td></tr>
+            <tr><td>Card back</td><td>Same as all other cards (red back design)</td></tr>
+        </table>
+        <div class="important">
+            <strong>File:</strong> <code>marketing-card/marketing-card-front.svg</code>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>6. Tuck Box Design 包装盒设计</h2>
+        <table>
+            <tr><th>Element</th><th>Specification</th></tr>
+            <tr><td>Box size</td><td>~65mm × 93mm × 20mm (W × H × D) — fits 55 cards</td></tr>
+            <tr><td>Material</td><td>350gsm coated cardboard</td></tr>
+            <tr><td>Finish</td><td>Matte</td></tr>
+            <tr><td>Front panel</td><td>Signaal Red (#C41E24) — logo, headline, tagline</td></tr>
+            <tr><td>Back panel</td><td>Dark (#1A1A2E) — explanation text, QR code, logos</td></tr>
+            <tr><td>Side panels</td><td>Red — "SIGNAALAPP.NL" and "SIGNAALBEWAKING.NL" vertical text</td></tr>
+            <tr><td>Flaps</td><td>Dark red (#8B0000) with subtle border</td></tr>
+        </table>
+        <div class="important">
+            <strong>File:</strong> <code>box-design/box-dieline.svg</code> — Full dieline with fold marks (blue dashed lines).
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>7. Typography 字体</h2>
+        <table>
+            <tr><th>Usage</th><th>Font</th><th>Weight</th></tr>
+            <tr><td>Headlines</td><td>Montserrat</td><td>800 (ExtraBold)</td></tr>
+            <tr><td>Body / subtext</td><td>Montserrat</td><td>600 (SemiBold) / 400 (Regular)</td></tr>
+        </table>
+        <div class="important">
+            <strong>Important:</strong> All text must be converted to outlines/curves in final production files.
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>8. QR Code Specification 二维码</h2>
+        <table>
+            <tr><th>Location</th><th>URL</th><th>Size</th></tr>
+            <tr><td>Joker back</td><td>https://signaalapp.nl</td><td>~18mm × 18mm</td></tr>
+            <tr><td>Marketing card</td><td>https://signaalapp.nl</td><td>~14mm × 14mm</td></tr>
+            <tr><td>Box back</td><td>https://signaalapp.nl</td><td>~24mm × 24mm</td></tr>
+        </table>
+        <div class="important">
+            <strong>QR code colors:</strong> Dark (#1A1A2E) modules on white background. Must be scannable. Error correction level: H (high).
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>9. Logo Placement 标志位置</h2>
+        <p>Three brand logos are used throughout the design:</p>
+        <table>
+            <tr><th>Logo</th><th>Appears on</th><th>Style</th></tr>
+            <tr><td>SignaalBewaking</td><td>Card back, box front, joker back</td><td>White text logo in bordered box</td></tr>
+            <tr><td>SignaalApp</td><td>Marketing card front, joker CTA</td><td>Shield icon + text</td></tr>
+            <tr><td>Schipper Security</td><td>Card back, joker back, box</td><td>Text only, small, subtle</td></tr>
+        </table>
+        <div class="important">
+            <strong>Logo files provided:</strong> SVG vector format in <code>/logos/</code> folder. Use vector files only — do not use PNG/JPEG.
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>10. Quality Requirements 质量要求</h2>
+        <ul>
+            <li>Cards must have <strong>casino-grade feel</strong> — smooth, flexible, durable</li>
+            <li>Colors must match <strong>Pantone 200 C</strong> for red — provide physical swatch</li>
+            <li>Card back pattern must be <strong>perfectly aligned</strong> — no visible offset between front and back</li>
+            <li>Rounded corners: <strong>3mm radius</strong></li>
+            <li>Bleed: <strong>3mm</strong> on all sides</li>
+            <li>Box must fit cards snugly — not too tight, not too loose</li>
+            <li><strong>Sample/proof required</strong> before full production run</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>11. File Structure 文件结构</h2>
+        <pre style="background: #1A1A2E; color: #E8E8E8; padding: 16px; border-radius: 8px; font-size: 13px; overflow-x: auto;">
+10_playing_cards/
+├── box-design/
+│   └── box-dieline.svg          ← Box dieline with fold marks
+├── card-back/
+│   └── card-back.svg            ← Card back design (all cards)
+├── joker-card/
+│   ├── joker-front.svg          ← Joker front (marketing side)
+│   └── joker-back.svg           ← Joker back (benefits + QR)
+├── marketing-card/
+│   └── marketing-card-front.svg ← Extra marketing card
+├── previews/                    ← PNG preview renders
+├── production-files/            ← Final PDF exports
+└── supplier-page/
+    └── index.html               ← This document
+        </pre>
+    </div>
+
+    <div class="section">
+        <h2>12. Delivery Details 交货信息</h2>
+        <table>
+            <tr><th>Field</th><th>Details</th></tr>
+            <tr><td>Company</td><td>Schipper Security B.V.</td></tr>
+            <tr><td>Contact</td><td>Michiel van der Wal</td></tr>
+            <tr><td>Email</td><td>verkoop@signaalbewaking.nl</td></tr>
+            <tr><td>Address</td><td>Vendelier 71, 3905 PD Veenendaal, Netherlands</td></tr>
+            <tr><td>Quantity</td><td>2,500 decks</td></tr>
+            <tr><td>Deadline</td><td>Arrive before April 1, 2026</td></tr>
+        </table>
+    </div>
+
+</div>
+
+<div style="background: #1A1A2E; color: rgba(255,255,255,0.4); text-align: center; padding: 20px; font-size: 12px;">
+    &copy; 2026 Schipper Security B.V. — SignaalBewaking / SignaalApp<br>
+    Document version: 1.0 — March 2026
+</div>
+
+</body>
+</html>

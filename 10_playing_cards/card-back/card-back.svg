@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.1 259.8" width="170.1" height="259.8">
+  <!-- Playing Card Back — 57mm x 87mm @ 300dpi = 170.1 x 259.8 (3mm bleed included = 63x93mm → 188.9x278.7) -->
+  <!-- Actual print area: 57x87mm. This SVG is at card size. Bleed version in production files. -->
+  <defs>
+    <pattern id="securityPattern" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <!-- Subtle security/tech pattern -->
+      <rect width="24" height="24" fill="none"/>
+      <!-- Shield outline -->
+      <path d="M12 2L4 6v6c0 5.5 3.4 10.7 8 12 4.6-1.3 8-6.5 8-12V6L12 2z" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+      <!-- Signal waves -->
+      <path d="M9 14a4 4 0 0 1 0-4" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="0.4"/>
+      <path d="M7 16a7 7 0 0 1 0-8" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="0.4"/>
+    </pattern>
+    <!-- Corner ornament -->
+    <g id="cornerOrnament">
+      <rect x="6" y="6" width="18" height="18" rx="2" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.6"/>
+      <line x1="6" y1="12" x2="24" y2="12" stroke="rgba(255,255,255,0.08)" stroke-width="0.3"/>
+      <line x1="15" y1="6" x2="15" y2="24" stroke="rgba(255,255,255,0.08)" stroke-width="0.3"/>
+    </g>
+  </defs>
+
+  <!-- Red background -->
+  <rect width="170.1" height="259.8" rx="8" fill="#C41E24"/>
+
+  <!-- Security pattern overlay -->
+  <rect width="170.1" height="259.8" rx="8" fill="url(#securityPattern)"/>
+
+  <!-- Inner border frame -->
+  <rect x="8" y="8" width="154.1" height="243.8" rx="5" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <rect x="12" y="12" width="146.1" height="235.8" rx="4" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="0.5"/>
+
+  <!-- Top decorative line -->
+  <line x1="30" y1="40" x2="140.1" y2="40" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/>
+
+  <!-- SignaalBewaking logo (center top) -->
+  <g transform="translate(85.05, 65)">
+    <rect x="-40" y="-16" width="80" height="32" rx="3" fill="none" stroke="#FFFFFF" stroke-width="1.2"/>
+    <rect x="-40" y="-16" width="80" height="3" fill="rgba(255,255,255,0.3)"/>
+    <text x="0" y="-1" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="9.5" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.2">SIGNAAL</text>
+    <text x="0" y="12" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="8" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">BEWAKING</text>
+  </g>
+
+  <!-- Center shield icon -->
+  <g transform="translate(85.05, 130)">
+    <!-- Large shield -->
+    <path d="M0-30L-22-20v18c0 16.5 10.2 32.1 22 36 11.8-3.9 22-19.5 22-36v-18L0-30z" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+    <path d="M0-24L-17-16v14c0 13 8 25.2 17 28.2 9-3 17-15.2 17-28.2v-14L0-24z" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.8"/>
+    <!-- Checkmark inside -->
+    <path d="M-8 2L-2 8L10-6" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Signal waves -->
+    <path d="M-14-8a18 18 0 0 1 0 20" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1" stroke-linecap="round"/>
+    <path d="M14-8a18 18 0 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1" stroke-linecap="round"/>
+  </g>
+
+  <!-- Schipper Security text -->
+  <g transform="translate(85.05, 185)">
+    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="5.5" fill="rgba(255,255,255,0.4)" text-anchor="middle" letter-spacing="2.5">SCHIPPER SECURITY</text>
+  </g>
+
+  <!-- Bottom decorative line -->
+  <line x1="30" y1="220" x2="140.1" y2="220" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/>
+
+  <!-- SignaalApp reference bottom -->
+  <g transform="translate(85.05, 237)">
+    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="4.5" fill="rgba(255,255,255,0.35)" text-anchor="middle" letter-spacing="1">POWERED BY SIGNAALAPP</text>
+  </g>
+
+  <!-- Corner ornaments (symmetrical) -->
+  <use href="#cornerOrnament" x="0" y="0"/>
+  <use href="#cornerOrnament" x="0" y="0" transform="translate(170.1,0) scale(-1,1)"/>
+  <use href="#cornerOrnament" x="0" y="0" transform="translate(0,259.8) scale(1,-1)"/>
+  <use href="#cornerOrnament" x="0" y="0" transform="translate(170.1,259.8) scale(-1,-1)"/>
+</svg>

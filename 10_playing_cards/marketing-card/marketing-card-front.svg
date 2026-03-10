@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.1 259.8" width="170.1" height="259.8">
+  <!-- Marketing Card — Front — "Install slimmer met SignaalApp" -->
+  <rect width="170.1" height="259.8" rx="8" fill="#FFFFFF"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="170.1" height="5" rx="8 8 0 0" fill="#C41E24"/>
+
+  <!-- SignaalApp logo area -->
+  <g transform="translate(85.05, 28)">
+    <!-- Shield icon -->
+    <g transform="translate(-35, -8)">
+      <path d="M0-8L-8-5v5c0 6 3.6 11.5 8 13 4.4-1.5 8-7 8-13v-5L0-8z" fill="#C41E24"/>
+      <path d="M-3 1L-1 3L5-2" fill="none" stroke="#fff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <!-- SignaalApp text -->
+    <text x="-16" y="-3" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="10" fill="#1A1A2E">Signaal</text>
+    <text x="-16" y="8" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="10" fill="#C41E24">App</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="20" y1="44" x2="150" y2="44" stroke="#E8E8E8" stroke-width="0.5"/>
+
+  <!-- Headline -->
+  <g transform="translate(85.05, 62)">
+    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="9" fill="#1A1A2E" text-anchor="middle">INSTALL SLIMMER</text>
+    <text x="0" y="13" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="9" fill="#C41E24" text-anchor="middle">MET SIGNAALAPP</text>
+  </g>
+
+  <!-- Benefits -->
+  <g transform="translate(18, 92)">
+    <!-- Leads -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="134" height="24" rx="3" fill="#FEF2F2"/>
+      <circle cx="14" cy="12" r="8" fill="#C41E24"/>
+      <text x="14" y="15" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle">📋</text>
+      <text x="28" y="9" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="5.5" fill="#1A1A2E">Ontvang installatie-leads</text>
+      <text x="28" y="17" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="4.2" fill="#666666">Direct opdrachten in je dashboard</text>
+    </g>
+
+    <!-- Meldkamer -->
+    <g transform="translate(0, 28)">
+      <rect x="0" y="0" width="134" height="24" rx="3" fill="#FEF2F2"/>
+      <circle cx="14" cy="12" r="8" fill="#C41E24"/>
+      <text x="14" y="15" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle">🔗</text>
+      <text x="28" y="9" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="5.5" fill="#1A1A2E">Direct naar de meldkamer</text>
+      <text x="28" y="17" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="4.2" fill="#666666">Verbind alarmsystemen met SignaalBewaking</text>
+    </g>
+
+    <!-- Sneller -->
+    <g transform="translate(0, 56)">
+      <rect x="0" y="0" width="134" height="24" rx="3" fill="#FEF2F2"/>
+      <circle cx="14" cy="12" r="8" fill="#C41E24"/>
+      <text x="14" y="15" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle">⚡</text>
+      <text x="28" y="9" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="5.5" fill="#1A1A2E">Werk sneller en eenvoudiger</text>
+      <text x="28" y="17" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="4.2" fill="#666666">Beheer installaties vanuit één platform</text>
+    </g>
+
+    <!-- Verdien -->
+    <g transform="translate(0, 84)">
+      <rect x="0" y="0" width="134" height="24" rx="3" fill="#FEF2F2"/>
+      <circle cx="14" cy="12" r="8" fill="#C41E24"/>
+      <text x="14" y="15" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle">💰</text>
+      <text x="28" y="9" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="5.5" fill="#1A1A2E">Verdien meer met beveiliging</text>
+      <text x="28" y="17" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="4.2" fill="#666666">Creëer terugkerende omzet</text>
+    </g>
+  </g>
+
+  <!-- Pro badge -->
+  <g transform="translate(85.05, 213)">
+    <rect x="-55" y="-9" width="110" height="20" rx="4" fill="#C41E24"/>
+    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="6.5" fill="#FFFFFF" text-anchor="middle">SIGNAALAPP PRO — 1 JAAR GRATIS</text>
+    <text x="0" y="8" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="4" fill="rgba(255,255,255,0.7)" text-anchor="middle">t.w.v. €99,95/maand</text>
+  </g>
+
+  <!-- QR code area -->
+  <g transform="translate(85.05, 244)">
+    <rect x="-14" y="-10" width="28" height="14" rx="2" fill="#1A1A2E"/>
+    <text x="0" y="-2" font-family="monospace" font-size="3.5" fill="#FFFFFF" text-anchor="middle">QR</text>
+    <text x="0" y="3" font-family="monospace" font-size="2.5" fill="rgba(255,255,255,0.6)" text-anchor="middle">signaalapp.nl</text>
+    <text x="22" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="4" fill="#C41E24">Scan &amp; start</text>
+  </g>
+</svg>

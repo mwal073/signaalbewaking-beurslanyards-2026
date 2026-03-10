@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.1 259.8" width="170.1" height="259.8">
+  <!-- Joker Card — Back (info side) — White background -->
+  <rect width="170.1" height="259.8" rx="8" fill="#FFFFFF"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="170.1" height="4" rx="8 8 0 0" fill="#C41E24"/>
+
+  <!-- JOKER label -->
+  <g transform="translate(85.05, 22)">
+    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="7" fill="#C41E24" text-anchor="middle" letter-spacing="4">JOKER</text>
+  </g>
+
+  <!-- Shield with checkmark (the winning card) -->
+  <g transform="translate(85.05, 55)">
+    <path d="M0-16L-12-10v9c0 9 5.6 17 12 19 6.4-2 12-10 12-19v-9L0-16z" fill="#C41E24"/>
+    <path d="M-5 0L-1 4L7-4" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Headline -->
+  <g transform="translate(85.05, 85)">
+    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="8" fill="#1A1A2E" text-anchor="middle">MET SIGNAALAPP:</text>
+  </g>
+
+  <!-- Benefits list -->
+  <g transform="translate(22, 102)">
+    <!-- Benefit 1 -->
+    <circle cx="5" cy="3" r="2.5" fill="#C41E24"/>
+    <text x="5" y="5" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="3.5" fill="#FFFFFF" text-anchor="middle">✓</text>
+    <text x="12" y="5" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="5.5" fill="#333333">Ontvang installatie-leads</text>
+
+    <!-- Benefit 2 -->
+    <circle cx="5" cy="17" r="2.5" fill="#C41E24"/>
+    <text x="5" y="19" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="3.5" fill="#FFFFFF" text-anchor="middle">✓</text>
+    <text x="12" y="18.5" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="5.2" fill="#333333">Verbind direct met de</text>
+    <text x="12" y="26" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="5.2" fill="#333333">meldkamer</text>
+
+    <!-- Benefit 3 -->
+    <circle cx="5" cy="37" r="2.5" fill="#C41E24"/>
+    <text x="5" y="39" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="3.5" fill="#FFFFFF" text-anchor="middle">✓</text>
+    <text x="12" y="39" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="5.5" fill="#333333">Werk sneller en eenvoudiger</text>
+
+    <!-- Benefit 4 -->
+    <circle cx="5" cy="51" r="2.5" fill="#C41E24"/>
+    <text x="5" y="53" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="3.5" fill="#FFFFFF" text-anchor="middle">✓</text>
+    <text x="12" y="53" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="5.5" fill="#333333">Verdien meer met beveiliging</text>
+  </g>
+
+  <!-- Pro badge -->
+  <g transform="translate(85.05, 175)">
+    <rect x="-52" y="-10" width="104" height="22" rx="4" fill="#C41E24"/>
+    <text x="0" y="-1" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="6" fill="#FFFFFF" text-anchor="middle">SIGNAALAPP PRO</text>
+    <text x="0" y="8" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="5" fill="rgba(255,255,255,0.85)" text-anchor="middle">1 JAAR GRATIS</text>
+  </g>
+
+  <!-- Value strikethrough -->
+  <g transform="translate(85.05, 198)">
+    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="400" font-size="4.5" fill="#888888" text-anchor="middle" text-decoration="line-through">t.w.v. €99,95/maand</text>
+  </g>
+
+  <!-- QR placeholder -->
+  <g transform="translate(85.05, 225)">
+    <rect x="-18" y="-18" width="36" height="36" rx="2" fill="#1A1A2E"/>
+    <text x="0" y="-4" font-family="monospace" font-size="4" fill="#FFFFFF" text-anchor="middle">QR CODE</text>
+    <text x="0" y="3" font-family="monospace" font-size="3.5" fill="rgba(255,255,255,0.6)" text-anchor="middle">signaalapp.nl</text>
+  </g>
+
+  <!-- Bottom logos -->
+  <g transform="translate(40, 250)">
+    <rect x="-25" y="-5" width="50" height="10" rx="1.5" fill="none" stroke="#C41E24" stroke-width="0.5"/>
+    <text x="0" y="-0.5" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="4" fill="#C41E24" text-anchor="middle">SIGNAAL</text>
+    <text x="0" y="4" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="3.5" fill="#C41E24" text-anchor="middle">BEWAKING</text>
+  </g>
+  <g transform="translate(125, 250)">
+    <text x="0" y="1" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="3.8" fill="#888888" text-anchor="middle">SCHIPPER SECURITY</text>
+  </g>
+</svg>
